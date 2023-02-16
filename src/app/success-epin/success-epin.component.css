@@ -1,0 +1,77 @@
+.f1{
+    max-width: 600px;
+}
+.input-box{
+border: 2px solid #DDDDDD;
+border-radius: 5px;
+box-sizing: border-box;
+max-width: 427px;
+height: 71px;
+color: black;
+padding-left: 20px;
+}
+
+.btn{
+    background: #CE992F;
+border-radius: 0px 30px 30px 20px;
+width: 427px;
+height: 62px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+
+
+color: #000000;
+}
+
+.title{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 48px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+.subs{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    
+    color: rgba(238, 238, 238, 0.6);
+}
+
+.subs2{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+
+color: #444444;
+}
+.f2{
+    box-sizing: border-box;
+width: 483px;
+height: 71px;
+
+background: white;
+border: 2px solid #DDDDDD;
+border-radius: 5px;
+}
+
+.btn2{
+    background: #CE992F;
+border-radius: 5px;
+width: 143px;
+height: 63px;
+}

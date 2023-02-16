@@ -1,0 +1,58 @@
+<div class="banner">
+    <div class="container">
+        <div class="d-flex justify-content-center">
+            <div class="text-center title" style="margin-top: 50px;">Refer your friends & earn some extra income!</div>
+        </div>
+
+        <div class="row" style="padding-left: 6%;padding-right: 6%;margin-top: 80px;margin-bottom: 80px;">
+            <div class="col-sm-6">
+                <p class="subs" style="color: white;">Lörem ipsum rede mar. Jåpån vast ining ben de benybel. Cynception nettokrati viss dogen vire. Krosamma per helarade mypes. Vaktigt överklassafari ol gusol. 
+                    Seminisade makrore guheten teck vamavis. Parar orar med </p>
+            </div>
+
+            <div class="col-sm-6">
+                <div class="d-flex justify-content-between f1">
+                    <small class="subs" style="margin-top: 10px; font-size: x-small; padding: 12px;"  >{{url}}/{{reffer}}</small>
+                    <button class="btn" style="margin-top: 2.5px;" data-toggle="modal" data-target="#myModal">Generate Link</button>
+                </div>
+                <div id="myModal" class="modal fade" role="dialog">
+                    <div class="modal-dialog">
+                  
+                      <!-- Modal content-->
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                          <h4 class="modal-title">Invitation Link</h4>
+                        </div>
+                        <div class="modal-body">
+                          <p>Please Choose Left Or Right</p>
+                        </div>
+                        <div class="modal-footer">
+                        
+                          <button type="button" (click)="onclick('left')" class="btn btn-default" data-dismiss="modal">Create for Left</button>
+                          <button type="button" (click)="onclick('right')" class="btn btn-default" data-dismiss="modal">Create for Right</button>
+                        </div>
+                      </div>
+                  
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+ <script src=
+"https://ajax.googleapis.com/ajax/libs/angularjs/1.2.13/angular.min.js">
+    </script>
+  
+    <script>
+        var myApp = angular.module("app", []);
+        myApp.controller("controller",
+            function ($scope, $location) {
+                $scope.url = '';
+                $scope.getUrl = function () {
+                    $scope.url = $location.absUrl();
+                };
+            });
+    </script>

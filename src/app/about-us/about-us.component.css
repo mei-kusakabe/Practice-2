@@ -1,0 +1,91 @@
+.banner{
+    background-image: url('../../assets/Generate-Wealth.jpg');
+    background-size: 100% 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.title{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 38px;
+line-height: 50px;
+text-align: center;
+max-width: 800px;
+
+color: #FFFFFF;
+}
+.main-text{
+    color: white;
+    font-family: poppins;
+    font-size: 45px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  .mission{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+
+color: #EEEEEE;
+  }
+/* .underline {
+	width: 190px;
+    border: 2.5px solid #FF5A1A;
+} */
+
+.box{
+    max-width: 511px;
+    background: #2A2A2A;
+border-radius: 10px;
+padding-left: 6%;
+padding-right: 6%;
+padding-top: 4%;
+height: 427px;
+}
+
+@media only screen and (min-width: 600px) {
+    
+    .description{
+        font-size: 28px;
+    }
+    .slogan{
+        font-size: 23px;
+    }
+    /* #fmob{
+        height: 200px;
+    } */
+    .choose{
+        box-sizing: border-box;
+    color: black;
+    border: 2px solid #DDDDDD;
+    border-radius: 5px;
+    width: 338px;
+    height: 71px;
+    }
+    }
+@media only screen and (max-width: 600px) {
+    .title{
+        margin-top: 30px;
+        font-size: 40px;
+        line-height: 60px;
+    }
+
+    #accMob{
+        margin-top: 50px;
+    }
+    .box{
+        margin-top: 50px;
+    }
+    .choose{
+        box-sizing: border-box;
+    color: black;
+    border: 2px solid #DDDDDD;
+    border-radius: 5px;
+    width: 260px;
+    height: 50px;
+    }
+}

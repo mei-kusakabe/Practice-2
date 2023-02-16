@@ -1,0 +1,44 @@
+.banner{
+    background-image: url('../../assets/img/rectangle-987-1@1x.png');
+    background-size: 100% 100%;
+    min-height: 500px;
+}
+.title{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 60px;
+line-height: 90px;
+text-align: center;
+max-width: 800px;
+
+color: #FFFFFF;
+}
+
+.subs{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+
+color: #444444;
+}
+.f1{
+    box-sizing: border-box;
+max-width: 483px;
+height: 71px;
+
+background: #EEEEEE;
+border: 2px solid #DDDDDD;
+border-radius: 5px;
+}
+
+.btn{
+    background: #CE992F;
+border-radius: 5px;
+width: 143px;
+height: 63px;
+}

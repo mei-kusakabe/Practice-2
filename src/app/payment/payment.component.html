@@ -1,0 +1,90 @@
+<div class="container">
+    <div class="row" style="margin-top: 60px;">
+        <div class="col-sm-3">
+            <div class="title">Choose your subscription Plan</div>
+        </div>
+        <div class="col-sm-3">
+            <div class="label d-flex flex-column" id="p1" (click)="paymentChosen('p1')">
+                <div class="plan-details">Basic Plan</div>
+                <div class="plan-details" style="margin-top: 100px;">Rs. 4999</div>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="label d-flex flex-column" id="p2" (click)="paymentChosen('p2')">
+                <div class="plan-details">Advanced Plan</div>
+                <div class="plan-details" style="margin-top: 100px;">Rs. 14999</div>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="label d-flex flex-column" id="p3" (click)="paymentChosen('p3')">
+                <div class="plan-details">Fortraider Plan</div>
+                <div class="plan-details" style="margin-top: 100px;">Rs. 24999</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="d-flex flex-column">
+                <div class="title" style="width: 300px;">Choose Payment Mode</div>
+                <button class="btn" (click)="btnClick('id1')" id="b1">UPI</button>
+                <button class="btn" (click)="btnClick('id2')" id="b2">Card Payment</button>
+                <button class="btn" (click)="btnClick('id3')" id="b3">NetBanking</button>
+                <button class="btn" (click)="btnClick('id4')" id="b4">E-PIN</button>
+            </div>
+        </div>
+
+        <!--BAR CODE PAYMENT-->
+        <div class="col-sm-6" id="id1">
+            <div class="d-flex flex-column" style="align-items: center;justify-content: center;height: 600px;">
+                <img class="barcode" src="../../assets/img/rectangle-1000@2x.png" alt="">
+                <div class="plan-details">Scan the above qr code using any UPI app</div>
+            </div>
+        </div>
+
+        <!--CARD PAYMENT-->
+        <div class="col-sm-6" id="id2">
+            <div class="d-flex flex-column" style="align-items: center;justify-content: center;height: 600px;">
+                <div class="plan-details">Enter the card details below and pay</div>
+                <div class="label2 d-flex flex-column">
+                    <input type="text" class="payment-inputs" placeholder="Card Number">
+                    <div class="d-flex justify-content-between" style="margin-top: 20px;width: 380px;">
+                        <input type="text" class="payment-inputs" placeholder="Expiry-Date" style="width: 179px;">
+                        <input type="text" class="payment-inputs" placeholder="CVV" style="width: 143px;">
+                    </div>
+                </div>
+
+                <button class="btn2" style="margin-top: 45px;" routerLink="/dashboard">Proceed to Pay</button>
+            </div>
+        </div>
+
+        <!--NETBANKING PAYMENT-->
+        <div class="col-sm-6" id="id3">
+            <div class="d-flex flex-column" style="align-items: center;justify-content: center;height: 600px;">
+                <div class="plan-details">Enter your netbanking details below</div>
+                <div class="label2 d-flex flex-column">
+                    <input type="text" class="payment-inputs" placeholder="Username">
+                    <input type="text" class="payment-inputs" placeholder="Password" style="margin-top:45px">
+                </div>
+
+                <button class="btn2" style="margin-top: 45px;" routerLink="/dashboard">Proceed to Pay</button>
+            </div>
+        </div>
+
+        <!--E-PIN PAYMENT-->
+        <div class="col-sm-6" id="id4">
+            <div class="d-flex flex-column" style="align-items: center;justify-content: center;height: 600px;">
+                <div class="plan-details" style="margin-bottom: 40px;">Enter your recieved E-Pin below</div>
+                <input type="text" class="payment-inputs" placeholder="E-PIN">
+
+                <button class="btn2" style="margin-top: 45px;" routerLink="/dashboard">Proceed to Pay</button>
+            </div>
+        </div>
+
+
+    </div>
+
+
+</div>

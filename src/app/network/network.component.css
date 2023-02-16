@@ -1,0 +1,76 @@
+.title{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 48px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+.subs{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+
+color: #CE992F;
+}
+
+.box{
+    width: 250px;
+    height: 187px;
+    background: #2A2A2A;
+border-radius: 10px;
+padding: 3%;
+}
+
+.profile-pic{
+    width: 50px;height: 50px;
+    border-radius: 42px;
+}
+
+.divider{
+    border: 0.5px solid rgba(227, 227, 227, 0.4);
+    width: 100%;
+    height: 0px;
+    margin-top: 40px;
+}
+
+.table-title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    
+    color: #1F1F1F;
+}
+.t1{
+    border-radius: 10px 10px 0px 0px;
+    width: 100%;
+}
+
+.t1 {
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+.t1::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+table{
+    width: 100%;
+}
+
+.subs2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+}

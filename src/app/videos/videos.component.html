@@ -1,0 +1,27 @@
+<div class="banner">
+    <div class="container">
+        <div class="d-flex justify-content-center">
+            <div class="text-center title" style="margin-top: 50px;">Welcome to our videos section</div>
+        </div>
+    </div>
+</div>
+
+<div class="text-center vid" style="margin-top: 65px;width: 100%;">Videos to help you out throughout the website</div>
+
+<div class="container" style="margin-top: 40px;padding-left: 3%;">
+    <div class="row">
+        <div class="col-sm-12 col-md-4 col-lg-4 vid-box-container  " *ngFor="let ar of arr">
+            <div class="vid-box">
+                 <!-- <a href="https://www.youtube.com/watch?v=PHe0bXAIuk0">
+                    <div class="crop"><img src="https://img.youtube.com/vi/PHe0bXAIuk0/0.jpg" alt=""></div>
+                </a>  -->
+
+                <a href="https://www.youtube.com/watch?v={{ar['unique_id']}}">
+                    <img src="https://img.youtube.com/vi/{{ar['unique_id']}}/0.jpg" alt="YouTube Video Thumbnail">
+                  </a>
+                <div class="vid-title">{{ar['title']}}</div>
+                <div class="subs">{{ar['des']}} </div>
+            </div>
+        </div>
+    </div>
+</div>

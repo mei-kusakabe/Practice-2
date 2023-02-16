@@ -1,0 +1,25 @@
+.menus{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+
+
+color: #EEEEEE;
+}
+
+.pc-view:nth-child(2n-1){
+    margin-left: 0%;
+}
+
+.pc-view {
+    margin-right: -13%;
+}
+
+.myimg  {
+    max-width: 100%;
+    height: 11vh;
+    margin: -39px 0 -71px 0px;
+}

@@ -1,0 +1,164 @@
+@media only screen and (max-width: 600px) {
+  .label {
+    background: #2a2a2a;
+    border-radius: 10px;
+    width: 230px;
+    height: 71px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+  }
+  .label2 {
+    background: #2a2a2a;
+    border-radius: 10px;
+    width: 289px;
+    height: 202px;
+    justify-content: center;
+    align-items: center;
+  }
+  .plan-details {
+    text-align: center;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+
+    color: #ffffff;
+  }
+  .title {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    /* identical to box height */
+
+    color: #ce992f;
+  }
+
+  .course-title {
+    text-align: center;
+
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 60px;
+    /* identical to box height */
+
+    color: #ffffff;
+  }
+
+  .btn {
+    background: #ce992f;
+    border-radius: 0px 30px 30px 20px;
+    width: 427px;
+    height: 62px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+
+    color: #000000;
+  }
+  .video {
+    height: 254px;
+    max-width: 371px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .label {
+    background: #2a2a2a;
+    border-radius: 10px;
+    width: 200px;
+    height: 150px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+  }
+  .label2 {
+    background: #2a2a2a;
+    border-radius: 10px;
+    width: 289px;
+    height: 340px;
+    justify-content: center;
+    align-items: center;
+  }
+  .plan-details {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+
+    color: #ffffff;
+  }
+  .title {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    /* identical to box height */
+
+    color: #ce992f;
+  }
+
+  .course-title {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+    padding-bottom: 20px;
+    /* identical to box height */
+
+    color: #ffffff;
+
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  position: relative;
+  margin: 30px 0 60px;
+  }
+
+  .course-title::after {
+    content: "";
+    width: 550px;
+    position: absolute;
+    margin: 0 auto;
+    height: 3px;
+    background: #ff5a1a;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+  }
+
+  .btn {
+    background: #ce992f;
+    border-radius: 0px 30px 30px 20px;
+    width: 427px;
+    height: 62px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+
+    color: #000000;
+  }
+  .video {
+    height: 254px;
+    max-width: 371px;
+  }
+}

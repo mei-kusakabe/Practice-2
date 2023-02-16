@@ -1,0 +1,54 @@
+.label{
+    background: #2A2A2A;
+border-radius: 10px;
+width: 230px;
+height: 71px;
+display: inline-flex;
+justify-content: center;
+align-items: center;
+margin-top: 35px;
+}
+.title{
+    
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 33px;
+/* identical to box height */
+
+
+color: #CE992F;
+}
+
+.course-title{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 60px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
+.btn{
+    background: #CE992F;
+    border-radius: 0px 30px 30px 20px;
+width: 427px;
+height: 62px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+
+
+color: #000000;
+}
+.video{
+    height: 254px;
+    max-width: 371px;
+}

@@ -1,0 +1,82 @@
+<div class="row" style="padding-left: 2%;">
+    <div class="col">
+<app-side-menu></app-side-menu>
+    </div>
+</div>
+
+<div class="container" style="padding-left: 6%;padding-right: 6%;margin-top: 120px; margin-bottom: 120px;">
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="title">
+                What is E-PIN ?
+            </div>
+            <div class="subs">
+                E-Pin is an innovative payment system that allows MLM recruits and businesses to enable a highly secured option to gather payment. 
+                Prime MLM software helps MLM businesses to generate a secured e-pin for any significant transactions and upgradations. A highly
+                 secured e-pin can be used for a range of options, such as for adding recruits, 
+                 upgrading the current program, and for reinstating participants.
+            </div>
+        </div>
+    
+        <div class="col-sm-6" style="justify-content: center;display: flex;">
+            <div class="d-flex flex-column f1" >
+                <input type="text" class="input-box" placeholder="Recipient ID" name="dob" [(ngModel)] = "recp_id" >
+                <input type="text" class="input-box" placeholder="Recipient Name" name="dob" style="margin-top: 25px;" [(ngModel)] = "recp_name">
+                <select #mySelect
+                (change)='priceChange(mySelect.value)' id="cars" class="input-box" name="cars"  style="margin-top: 25px;" [(ngModel)] = "course_n">
+                    <option  value="" disabled selected hidden>Choose Course</option>
+                    <option value="Forex Market">Forex Market Education</option>
+                    <option value="Indian Stock">Indian Stock Education</option>
+                    <option value="Combo Course">Combo Course Education
+                        India + Forex Stock
+                        Education</option>
+                  </select>
+                <input type="text" class="input-box" placeholder={{price}} disabled name="dob" style="margin-top: 25px;" [(ngModel)] = "amount">
+                <button type="submit" class="btn" style="margin-top: 50px;" routerLink="/success-e-pin" (click)="transfer_epin()">Transfer</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container" style="padding-left: 6%;padding-right: 6%;">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="d-flex justify-content-end">
+                <div class="p-2 flex-grow-1">
+                    <div class="title" style="margin-top: 60px;margin-bottom: 60px;">Total earnings</div>
+                </div>
+                <div class="p-2" style="margin-top: 60px;"><a class="subs" href="#" routerLink="/apply-filter">Filter Options</a></div>
+                <div class="p-2" style="margin-top: 60px;"><a class="subs" href="#">Export as Excel Sheet</a></div>
+            </div>
+            <div class="table-responsive t1">
+                <table class="table table-borderless align-middle overflow-hidden">
+                    <thead style="background: #CE992F;">
+                      <tr>
+                        <th scope="col"><div class="table-title">Transfer date</div></th>
+                        <th scope="col"><div class="table-title">Transfer Amount</div></th>
+                        <th scope="col"><div class="table-title">Recipient</div></th>
+                        <th scope="col"><div class="table-title">Expiry before transfer</div></th>
+                        <th scope="col"><div class="table-title">Expiry after transfer</div></th>
+                        <th scope="col"><div class="table-title">E-PIN</div></th>
+                      </tr>
+                    </thead>
+                    <tbody style="background: #2A2A2A;">
+                      
+
+                      <tr *ngFor="let user of user_transfer_arr">
+                        <th scope="row">
+                            <div class="subs2" style="color: white;">{{user.transfer_date}}</div>
+                        </th>
+                        <td><div class="subs2" style="color: white;">{{user.transfer_amount}}</div></td>
+                        <td><div class="subs2" style="color: white;">{{user.recipient_name}}</div></td>
+                        <td><div class="subs2" style="color: white;">{{user.expiry_before_transfer}}</div></td>
+                        <td><div class="subs2" style="color: white;">{{user.expiry_after_transfer}}</div></td>
+                        <td><div class="subs2" style="color: white;">{{user.epin}}</div></td>
+                      </tr>
+                    </tbody>
+                  </table>
+            </div>
+        </div>
+    </div>
+</div>

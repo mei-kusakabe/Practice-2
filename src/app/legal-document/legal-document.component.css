@@ -1,0 +1,39 @@
+.banner{
+    background-image: url('../../assets/legal_documents.jpg');
+    background-size: 100% 100%;
+    height: 358px;
+}
+.title{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 60px;
+line-height: 90px;
+text-align: center;
+max-width: 800px;
+
+color: #FFFFFF;
+}
+
+.doc_img{
+    height: 444.55px;
+    width: 308.85;
+}
+
+.doc-box{
+    max-width: 393px;
+    height: 500px;
+}
+
+.doc-title{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 26px;
+line-height: 39px;
+/* identical to box height */
+margin-top: 15px;
+
+
+color: #CE992F;
+}

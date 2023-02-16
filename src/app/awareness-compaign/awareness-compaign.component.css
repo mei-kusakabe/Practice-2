@@ -1,0 +1,106 @@
+.banner{
+    background-image: url('../../assets/img/aware.jpg');
+    background-size: 100% 100%;
+    height: 308px;
+    /* display: flex;
+     align-items: center; */
+}
+.title{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 60px;
+line-height: 90px;
+text-align: center;
+max-width: 800px;
+
+color: #FFFFFF;
+}
+ 
+/* ======================
+---- SECOND SECTION------
+=======================*/
+
+.second-section {
+	padding: 70px 0px;
+  height: 40vh;
+}
+
+.second-section h2 {
+	font-size: 44px;
+	/*text-transform: uppercase;*/
+	font-weight: 900;
+	letter-spacing: 1px;
+	text-align: center;
+  color: #ffffff;;
+}
+
+.second-section {
+	text-align: center;
+	margin-top: 50px;
+	font-size: 60px;
+  text-align: center;
+  margin-top: 0px;
+  padding: 20px;
+  color: #fff;
+  font-size: 60px;
+}
+
+.second-section h4 {
+	font-size: 24px;
+	color: #ffffff;;
+	margin-top: 25px;
+	margin-bottom: 15px;
+	font-weight: 600;
+}
+
+.line {
+    width: 100px;
+    height: 3px;
+    background-color: #bd8427;
+    margin: 25px auto 7% auto;
+}
+/*plan*/
+.plan {
+    padding: 80px 0 80px 0;
+  }
+  
+  .plan .planbox {
+    padding: 40px;
+    margin: 0px 13% 13% 13%;
+    box-shadow: 10px 10px 15px rgba(73, 78, 92, 0.1);
+    background: #fff;
+    transition: 0.4s;
+    /* background-image: url(../img/single_bg.png) ; */
+    border: 1px solid #edf1f6;
+    background-repeat: no-repeat;
+    transition: all 300ms linear 0s;
+    background-position: right top;
+  }
+  
+  .plan .planbox:hover {
+    box-shadow: 0px 0px 30px rgba(73, 78, 92, 0.15);
+    transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+  }
+  
+  .plan .planbox h4{
+      font-size: 24px;
+      color: #292c5f;
+      margin-top: 25px;
+      margin-bottom: 15px;
+      font-weight: 600;
+      background-color: #bd8427;
+      color: #fff;
+      padding: 10px 0;
+      text-align: center;
+  }
+
+  .plan .planbox a{
+      color: #fff;
+  }
+
+@media (max-width: 767px) {
+  
+}

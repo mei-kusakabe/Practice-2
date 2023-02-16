@@ -1,0 +1,34 @@
+<div class="block" (click)="fopenNav()" style="padding-left: 4%;padding-top: 4%">
+    <div>
+            <div  style="color: white;">
+                <!-- <img src="../../assets/Vector1.png" alt=""> -->
+                <i class="fa fa-bars fa-lg"></i>
+            </div>
+    </div>
+</div>
+<div class="container" id="mySidenav">
+    <img src="../assets/image 2.png" alt="" style="margin-bottom: 80px;" class="closebtn" (click)="closeNav()">
+    <!-- <a href="javascript:void(0)" >&times;</a> -->
+    <div class="row">
+        <div class="col">
+            <img src="../../assets/img/image-8@2x.png" alt="">
+            <img src="../../assets/img/image-9@2x.png" alt="" class="img">
+            <img src="../../assets/img/image-10@2x.png" alt="" class="img">
+            <img src="../../assets/img/image-11@2x.png" alt="" class="img">
+            <img src="../../assets/img/image-12@2x.png" alt="" class="img">
+            <img src="../../assets/img/image-14@2x.png" alt="" class="img">
+        </div>
+        <div class="col">
+            <div class="menu" id="m1" style="margin-top: 10px;" routerLink="/profile-details" (click)="onclick('m1')">Dashboard</div>
+            
+            <div class="menu m1" id="m2" routerLink="/network" (click)="onclick('m2')">My Network</div>
+            <div class="menu m1" id="m3" routerLink="/my-earnings" (click)="onclick('m3')">My Earnings</div>
+            <div class="menu m1" id="m4" routerLink="/generate-E-pin" (click)="onclick('m4')">E-Pin</div>
+            <div class="menu m1" id="m5" routerLink="/upgrade" (click)="onclick('m5')">Upgrade</div>
+            <div class="menu m1" id="m6" (click)="logout()">Logout</div>
+        </div>
+    </div>
+</div>
+
+<div id="main">
+</div>

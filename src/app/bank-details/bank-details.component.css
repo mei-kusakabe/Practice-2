@@ -1,0 +1,125 @@
+.second-section {
+    padding: 70px 0px;
+}
+
+
+
+.second-section h2 {
+    font-size: 44px;
+    /*text-transform: uppercase;*/
+    font-weight: 900;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.line {
+    width: 100px;
+    height: 3px;
+    background-color: #bd8427;
+    margin: 25px auto 25px auto;
+    /* animation: Vaibhav 2s ease-in 1; */
+}
+
+.linewrap:hover {
+    animation: Vaibhav 2s ease-in 1;
+}
+
+@keyframes Vaibhav{
+    0% {
+        width: 100px;
+      }
+    
+      100% {
+        width: 20vw;
+      }
+    
+} 
+.second-section {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 60px;
+    padding: 20px;
+    color: #fff;
+    font-size: 60px;
+}
+
+
+/* ======================
+----- seventh SECTION------
+=======================*/
+
+.seventh-section {
+    background-image: url(https://wealthgenics.com/Themes/Vnext/WebDesign/img/fivth-section-bg.png);
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    padding: 170px 0px 90px;
+}
+
+.right-text {
+    padding-left: 25vh;
+    padding-top: 1vh;
+    text-align: left;
+    display: inline;
+}
+.right-image img {
+    width: 85%;
+	overflow: hidden;
+	text-align: center;
+    display: inline;
+}
+.seventh-section h4 {
+    margin-top: 60px;
+    color: #fff;
+    font-size: 44px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.seventh-section h5 {
+    font-size: 24px;
+    color: #bd8427;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.seventh-section p {
+    color: #fff;
+    margin-top: 15px;
+    text-align: justify;
+    line-height: 3em;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 991px) {
+    .right-text {
+        padding-left:9%;
+        padding-top: 0;
+        text-align: left;
+        display: inline;
+    }
+    .right-image img {
+        width: 100%;
+        padding-left:6%;
+    }
+  }
+
+  @media screen and (max-width: 1279px) {
+    .right-text {
+        padding-left:9%;
+        padding-top: 0;
+        text-align: left;
+        display: inline;
+    }
+    .right-image img {
+        width: 100%;
+        padding-left:6%;
+    }
+  }

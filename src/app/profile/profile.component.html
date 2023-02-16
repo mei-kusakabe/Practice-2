@@ -1,0 +1,207 @@
+<div class="alert alert-success" role="alert" *ngIf="alert">
+    {{arertdata}} is uploaded {{hi}}%
+   </div>
+<div class="container" id="c1">
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="d-flex flex-column justify-content-center" style="align-items: center;margin-top: 50px;">
+                <div class="title">Enter Personal Details</div>
+                <div class="d-flex justify-content-center" style="border: 1px solid #CE992F;width: 166px;height:166px;border-radius: 80px;margin-top: 65px;">
+                    <img *ngIf="!isProfileUploaded"  style="width: 68px;height: 85px;margin-top: 40px;" src="../../assets/img/iconly-light-outline-profile@2x.svg" alt="">
+                    <img *ngIf="isProfileUploaded" style="width: 68px;height: 85px;margin-top: 40px;" src="{{uploadedProfile}}" alt="">
+                </div>
+
+                <div class="subs">Add or change Profile Photo  <input type="file" (change)="uploadFileProfile($event,'prfile/image')" name="profile" id="">  </div>
+                <div class="box" style="margin-top: 65px;">
+                    <div class="d-flex justify-content-between" style="width: 250px;">  
+                        <div class="subs" style="color: white;">Joined On:</div>
+                        <!-- <div class="subs" style="color: white;">{{doj}}</div> -->
+                    </div>
+                    <div class="d-flex justify-content-between" style="width: 250px;">  
+                        <div class="subs" style="color: white;">Payment:</div>
+                        <div class="subs" style="color: white;">Rs. 0</div>
+                    </div>
+                    <div class="d-flex justify-content-between" style="width: 250px;">  
+                        <div class="subs" style="color: white;">Expiry Date:</div>
+                        <div class="subs" style="color: white;">null</div>
+                    </div>
+                    <div class="d-flex justify-content-between" style="width: 250px;">  
+                        <div class="subs" style="color: white;">Invited By:</div>
+                        <!-- <div class="subs" style="color: white;">{{invitationId}}</div> -->
+                    </div>
+                    <div class="subs">These details cannot be changed</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-6">
+            <form class="d-flex flex-column f1" #nomineeForm = "ngForm" (ngSubmit)="getNomineeInfo(nomineeForm.value)" >
+                <label for="dob" style="color: white;margin-top: 50px;">Your Date Of Birth</label>
+                <input  ngModel name="dob" type="date"  class="input-box" placeholder="20/07/1989" >
+                <label for="dob" style="color: white;margin-top: 20px;">Nominee Name</label>
+                <input ngModel name="Nname" type="text" class="input-box"  placeholder="Aman Shankar">
+                <label for="dob" style="color: white;margin-top: 20px;">Nominee Mobile Number</label>
+                <input ngModel name="Nnumber" type="number" class="input-box"  placeholder="+91 900000000">
+                <label for="dob" style="color: white;margin-top: 20px;">Nominee email</label>
+                <input ngModel name="Nemail" type="email" class="input-box" placeholder="Ananthnag@gmail.com">
+                <button type="submit" class="btn" style="margin-top: 50px;" (click)="btnClick('c1')">Save & Next</button>
+            </form>
+        </div>
+
+    </div>
+</div>
+
+<div class="container" id="c2" style="padding-left: 6%; padding-right: 6%;">
+    <form #bankForm = "ngForm" (ngSubmit)="getBankDetails(bankForm.value)" >
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="title">Enter Bank Details</div>
+            <div  class="d-flex flex-column f1"  >
+                <label for="dob" style="color: white;margin-top: 50px;">Account Number</label>
+                <input type="number" ngModel class="input-box" placeholder="+91 900000000" name="accountNumber">
+                <label for="dob" style="color: white;margin-top: 20px;">IFSC</label>
+                <input type="text" ngModel class="input-box"  placeholder="SBIN001233" name="IFSC" >
+              
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="d-flex flex-column f1" >
+                <label for="dob" style="color: white;margin-top: 50px;">Account Name</label>
+                <input type="text" ngModel class="input-box" name="holderName" placeholder="Ananth Nag" >
+                <label for="dob" style="color: white;margin-top: 20px;">Branch</label>
+                <input ngModel type="text"  class="input-box" name="branch"  placeholder="Delhi">
+                <button type="submit" class="btn" style="margin-top: 50px;" (click)="btnClick('c2')">Save & Next</button>
+            </div>
+        </div>
+
+    </div>
+</form>
+</div>
+
+<div class="container" id="c3" style="padding-left: 6%; padding-right: 6%;">
+    <form  #addressForm = "ngForm" (ngSubmit)="getAddress(addressForm.value)"  >
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="title">Enter Your Address Details</div>
+            <div class="d-flex flex-column f1" >
+                <label for="dob" style="color: white;margin-top: 50px;">House Number</label>
+                <input type="text" ngModel name = "houseNumber" class="input-box" placeholder=" .. " >
+                <label for="dob" style="color: white;margin-top: 20px;">Street Name</label>
+                <input type="text" ngModel class="input-box" name="streetAddress"  placeholder="Dhanwantry Colony">
+                <label for="dob" style="color: white;margin-top: 20px;">City</label>
+                <input type="text"ngModel class="input-box" name="city"  placeholder="Mumbai">
+              
+            </div>
+        </div>
+
+        <div class="col-sm-6">
+            <div class="d-flex flex-column f1" >
+                <label for="dob" style="color: white;margin-top: 50px;">Zip Code</label>
+                <input type="number" ngModel name = "zip" class="input-box" placeholder="202014" >
+                <label for="dob" style="color: white;margin-top: 20px;">State</label>
+                <input type="text" ngModel name="state" class="input-box"  placeholder="Maharashtra">
+                <label for="dob" style="color: white;margin-top: 20px;">Country</label>
+                <input type="text" ngModel name="country" class="input-box"  placeholder="India">
+                <button type="submit" class="btn" style="margin-top: 50px;" (click)="btnClick('c3')">Save & Next</button>
+            </div>
+        </div>
+
+    </div>
+</form>
+</div>
+<form #securiteDetailsForm = "ngForm" (ngSubmit)="getSecuriteDetails(securiteDetailsForm.value)">
+<div class="container" id="c4" style="padding-left: 6%; padding-right: 6%;">
+    
+    <div class="row">
+        <div class="col">
+            <div class="title">Enter Your Address Details</div>
+            <div class="kyc">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="d-flex flex-column" style="max-width: 500px;" >
+                            <label for="dob" style="color: white;margin-top: 50px;">Aadhar Number</label>
+                            <input type="text" style="max-width: 250px;" ngModel name="adharNumber" class="input-box" placeholder="123456789546" >
+        
+                            <label for="dob" style="color: white;margin-top: 50px;">Upload Documents</label>
+        
+                            <div class="d-flex justify-content-between" >
+                                <div class="upload d-flex  flex-column justify-content-center custom-file" style="align-items: center;  ">
+                                    
+                                    <img src="../../assets/img/image-15@2x.png" alt="">
+                                    <div class="subs">Aadhar card front</div>
+                                    <input type="file"  size="50px"class="custom-file-input" (change)="uploadFile($event,'Adhar Front')" style="margin-left: 190px;">
+                                    
+                                </div>
+                                <div class="upload d-flex flex-column justify-content-center" style="align-items: center;  ">
+                                    <img src="../../assets/img/image-15@2x.png" alt="">
+                                    <div class="subs">Aadhar card back</div>
+                                    <input type="file" size="50px"class="custom-file-input" (change)="uploadFile($event,'Adhar Back')" style="margin-left: 190px;">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            
+                </div>
+            </div>
+        
+            <div class="kyc" style="margin-top: 65px;">
+                <div class="row">
+                    <div class="col-sm-12">
+        
+                        <div class="d-flex flex-column" style="max-width: 500px;" >
+                            <label for="dob"  style="color:  white;margin-top: 50px;">PAN Number</label>
+                            <input type="text" style="max-width: 250px;" ngModel name="panNumber" class="input-box" placeholder="123456789546" >
+        
+                            <label for="dob" style="color: white;margin-top: 50px;">Upload Documents</label>
+        
+                            <div class="d-flex justify-content-between">
+                                <div class="upload d-flex flex-column justify-content-center" style="align-items: center;">
+                                    <img src="../../assets/img/image-15@2x.png" alt="">
+                                    <div class="subs">PAN card front</div>
+                                    <input type="file" size="50px"class="custom-file-input" (change)="uploadFile($event,'PAN Front')" style="margin-left: 190px;">
+                                    
+                                </div>
+                                <div class="upload d-flex flex-column justify-content-center" style="align-items: center;">
+                                    <img src="../../assets/img/image-15@2x.png" alt="">
+                                    <div class="subs">PAN card back</div>
+                                    
+                                    <input type="file" size="50px"class="custom-file-input" (change)="uploadFile($event,'PAN Back')"style="margin-left: 190px;">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            
+                </div>
+            </div>
+        
+            <div class="kyc" style="margin-top: 65px;margin-bottom: 65px;">
+                <div class="row">
+                    <div class="col-sm-12">
+        
+                        <div class="d-flex flex-column" style="max-width: 500px;" >
+        
+                            <label for="dob" style="color: white;margin-top: 50px;margin-bottom: 20px;">Upload Bank passbook / Cross cheque</label>
+        
+                            <div class="d-flex justify-content-between">
+                                <div class="upload d-flex flex-column justify-content-center" style="align-items: center;">
+                                    <img src="../../assets/img/image-15@2x.png" alt="">
+                                    <div class="subs">Bank passbook / cheque</div>
+                                    
+                                    <input type="file" size="50px"class="custom-file-input"(change)="uploadFile($event,'Bank passbook/Cross check')" style="margin-left: 190px;">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            
+                </div>
+            </div>
+        
+        </div>
+        <button type="submit" class="btn" style="margin-top: 50px;" (click)="btnClick('c4')" >Submit</button>
+
+    </div>
+</div>
+</form>

@@ -1,0 +1,41 @@
+.input-box{
+    border: 2px solid #DDDDDD;
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 427px;
+    height: 71px;
+    color: black;
+    padding-left: 20px;
+    }
+    
+    .btn{
+        background: #CE992F;
+    border-radius: 0px 30px 30px 20px;
+    width: 427px;
+    height: 62px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+    }
+
+    .f1{
+        max-width: 450px;
+    }
+
+    .title{
+        font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+    }

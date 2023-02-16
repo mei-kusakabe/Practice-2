@@ -1,0 +1,70 @@
+.banner{
+    
+    background-image: url('../../assets/img/rectangle-987-2@1x.png');
+    background-size: 100% 100%;
+}
+@media only screen and (max-width: 600px) {
+    .banner{
+        height: 1200px;
+    }
+    .input-box{
+        background: #D9D9D9;
+    border: 2px solid #DDDDDD;
+    border-radius: 5px;
+    box-sizing: border-box;
+    height: 50px;
+    color: black;
+    height: 60px;
+    width: 300px;
+    }
+    
+    .btn{
+        background: #CE992F;
+    border-radius: 0px 30px 30px 20px;
+    width: 300px;
+    height: 62px;
+    }
+}
+@media only screen and (min-width: 600px) {
+    .banner{
+        height: 747px;
+    }
+    .input-box{
+        background: #D9D9D9;
+    border: 2px solid #DDDDDD;
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 427px;
+    height: 71px;
+    color: black;
+    }
+    
+    .btn{
+        background: #CE992F;
+    border-radius: 0px 30px 30px 20px;
+    width: 427px;
+    height: 62px;
+    }
+}
+.head{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 60px;
+line-height: 90px;
+
+color: #FFFFFF;
+}
+.f1{
+    max-width: 600px;
+}
+.sub-head{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+
+color: #EEEEEE;
+}
+

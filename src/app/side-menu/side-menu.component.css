@@ -1,0 +1,60 @@
+.container{
+    background: #1D1D1D;
+    padding-left: 40px;
+    height: 100%;
+    width: 300px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    display: none;
+    overflow-x: hidden;
+    padding-top: 20px; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+
+.menu{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 19px;
+line-height: 21px;
+background: #1D1D1D;
+/* identical to box height */
+
+
+color: white;
+}
+.f1{
+    width: 20px;
+    height: 800px;
+}
+.f2{
+    width: 200px;
+    height: 800px;
+}
+.img{
+    margin-top: 40px;
+}
+.m1{
+    margin-top: 55px;
+}
+
+.container .closebtn {
+    font-size: 36px;
+    color: white;
+    position: relative;
+    
+  }
+  .container::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
+  #main {
+    transition: margin-left .5s;
+    padding: 20px;
+  }
+
+  @media screen and (max-height: 450px) {
+    .container {padding-top: 15px;}
+  }
