@@ -1,0 +1,284 @@
+/*Header Panel*/
+.inbox-email-menu-list .compose-email a,
+.btn-group-xs>.btn,
+.login-btn-inner .btn-primary.active.focus,
+.login-btn-inner .btn-primary.active:focus,
+.login-btn-inner .btn-primary.active:hover,
+.login-btn-inner .btn-primary:active.focus,
+.login-btn-inner .btn-primary:active:focus,
+.login-btn-inner .btn-primary:active:hover,
+.login-btn-inner .btn-primary:hover,
+.login-btn-inner .btn-primary:active,
+.login-btn-inner .btn-primary:focus,
+.materialdesign .header-top-area,
+.materialdesign .fixed-header-top,
+.materialdesign .header-top-menu .navbar-nav>li .dropdown-menu,
+.materialdesign .header-right-info ul.header-right-menu li .author-message-top,
+.materialdesign .header-right-info ul.header-right-menu li .notification-author,
+.materialdesign .header-right-info ul.header-right-menu li .author-log,
+.materialdesign .header-right-info ul.header-right-menu li .admintab-wrap.menu-setting-wrap.menu-setting-wrap-bg.dropdown-menu,
+.inbox-email-menu-list .compose-email strong,
+.materialdesign .breadcome-list,
+.materialdesign .left-custom-menu-adp-wrap ul.left-sidebar-menu-pro li a:hover,
+.materialdesign .left-custom-menu-adp-wrap ul.left-sidebar-menu-pro li a:focus,
+.materialdesign .left-custom-menu-adp-wrap ul.left-sidebar-menu-pro li a:active,
+.materialdesign .left-custom-menu-adp-wrap ul.left-sidebar-menu-pro li a:visited,
+.view-file-in,
+.materialdesign .header-drl-controller-btn.btn-info {
+    /* background: #1d68ba;*/
+    background: #000;
+}
+
+.btn-info,
+.header-right-info .author-project-icon {
+    color: #ffffff;
+}
+
+.panel-primary>.panel-heading {
+    color: #fff !important;
+    /*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #d9d9da), color-stop(53%, #1d68ba)) !important;;*/
+    background-image: linear-gradient(to bottom, #bd8427, #c7902e, #d19c35, #daa83c, #e4b544);
+
+}
+
+.form-group-inner input[type="email"]:focus,
+.form-group-inner input[type="password"]:focus,
+.form-group-inner input[type="text"]:focus,
+.form-select-list .custom-select-value:focus
+
+/*.materialdesign .header-drl-controller-btn.btn-info*/
+    {
+    border: 1px solid #1d68ba;
+}
+
+.materialdesign .header-drl-controller-btn.btn-info {
+    border: 1px solid #fff;
+}
+
+/*Grid Panel */
+.materialdesign .adminpro-custon-design .panel-heading,
+.materialdesign .nav-tabs.custom-menu-wrap li a,
+.sparkline-hd,
+.smart-sparkline-hd,
+.sparkline7-hd,
+.sparkline8-hd,
+.sparkline9-hd,
+.sparkline10-hd,
+.sparkline11-hd,
+.sparkline12-hd,
+.sparkline13-hd,
+.sparkline14-hd,
+.sparkline15-hd,
+.sparkline16-hd {
+    background: #bd8427;
+}
+
+/*Side Panel */
+.materialdesign #sidebar .sidebar-header,
+.materialdesign #sidebar,
+.materialdesign .left-custom-menu-adp-wrap ul.left-sidebar-menu-pro li .left-menu-dropdown {
+    background-color: #000;
+}
+
+.header-top-menu .navbar-nav>li>a:hover,
+.header-right-info ul.header-right-menu>li>a:hover {
+    color: #ffffff;
+}
+
+.materialdesign .left-custom-menu-adp-wrap ul.left-sidebar-menu-pro li a:focus,
+.materialdesign .left-custom-menu-adp-wrap ul.left-sidebar-menu-pro li a:active,
+.materialdesign .left-custom-menu-adp-wrap ul.left-sidebar-menu-pro li a:visited {
+    color: #ffffff;
+    /*#1d68ba Text Color*/
+}
+
+.outline-icon span,
+.smart-outline-icon span,
+.sparkline7-outline-icon span,
+.sparkline8-outline-icon span,
+.sparkline9-outline-icon span,
+.sparkline10-outline-icon span,
+.sparkline11-outline-icon span,
+.sparkline12-outline-icon span,
+.sparkline13-outline-icon span,
+.sparkline14-outline-icon span,
+.sparkline15-outline-icon span,
+.sparkline16-outline-icon span {
+    color: #ffffff;
+}
+
+.materialdesign .adminpro-custon-design .panel-heading {
+    color: #ffffff;
+}
+
+.materialdesign .nav-tabs.custom-menu-wrap li a {
+    color: #ffffff;
+}
+
+.materialdesign .sidebar-header h3 {
+    color: #ffffff;
+}
+
+.header-right-info ul.header-right-menu li .dropdown-header-top.author-log li a {
+    color: #ffffff;
+}
+
+.inbox-email-menu-list .compose-email strong {
+    color: #ffffff;
+}
+
+.materialdesign .nav-tabs.custom-menu-wrap li a:hover {
+    color: #ffffff;
+    background-color: #317cce;
+}
+
+.main-spark-hd h1,
+.smart-main-spark-hd h1,
+.main-spark7-hd h1,
+.main-sparkline8-hd h1,
+.main-sparkline9-hd h1,
+.main-sparkline10-hd h1,
+.main-sparkline11-hd h1,
+.main-sparkline12-hd h1,
+.main-sparkline13-hd h1,
+.main-sparkline14-hd h1,
+.main-sparkline15-hd h1,
+.main-sparkline16-hd h1 {
+    color: #ffffff;
+}
+
+
+.materialdesign .left-custom-menu-adp-wrap ul.left-sidebar-menu-pro li a,
+.materialdesign .adminpro-custon-design .admin-panel-content p {
+    color: #ffffff;
+}
+
+.header-right-info .admin-name {
+    color: #ffffff;
+}
+
+.header-top-menu .navbar-nav>li>a,
+.header-right-info ul.header-right-menu>li>a {
+    color: #ffffff;
+}
+
+.materialdesign .left-custom-menu-adp-wrap ul.left-sidebar-menu-pro li a:hover {
+    color: #ffffff;
+}
+
+.left-custom-menu-adp-wrap ul.left-sidebar-menu-pro li a:hover,
+.left-custom-menu-adp-wrap ul.left-sidebar-menu-pro li a:focus,
+.left-custom-menu-adp-wrap ul.left-sidebar-menu-pro li a:active,
+.left-custom-menu-adp-wrap ul.left-sidebar-menu-pro li a:visited {
+    background: #2b2a2a;
+    color: #ffffff;
+}
+
+/* Table css*/
+.table>thead>tr>th,
+table.dataTable thead th,
+table.dataTable tfoot th,
+#footerResponsive {
+    background-color: #d3e4f4;
+}
+
+
+
+.table>caption+thead>tr:first-child>td,
+.table>caption+thead>tr:first-child>th,
+.table>colgroup+thead>tr:first-child>td,
+.table>colgroup+thead>tr:first-child>th,
+.table>thead:first-child>tr:first-child>td,
+.table>thead:first-child>tr:first-child>th {
+    color: #434d58;
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .mobile-menu-area {
+        background: #1d68ba;
+    }
+}
+
+.ReciptDetailshead {
+    background-color: #1d68ba;
+    border-bottom: solid 5px #1d68ba;
+}
+
+.ReciptDetailsfooterbg {
+    background-color: #1d68ba;
+    border-top: solid 5px #1d68ba;
+}
+
+.ReciptDetailbox {
+    border: solid 5px #1d68ba;
+}
+
+/*1.Normal Button = text, mouse hove back, mH text*/
+.btn-primary {
+    color: #ffffff !important;
+    background-color: #bd8427 !important;
+    border-color: #e4b544 !important;
+}
+
+.btn-success {
+    color: #ffffff !important;
+    background-color: #03a9f4 !important;
+    border-color: #03a9f4 !important;
+}
+
+.btn-default.active {
+    color: #ffffff !important;
+    background-color: #03a9f4 !important;
+    border-color: #03a9f4 !important;
+}
+
+.btn-xs {
+    color: #ffffff !important;
+    background-color: #03a9f4 !important;
+    border-color: #03a9f4 !important;
+}
+
+/*2.Reset/cancel */
+.btn-warning {
+    color: #ffffff !important;
+    ;
+    background-color: #d58512 !important;
+    border-color: #d58512 !important;
+}
+
+/*3.Delete Button*/
+.btn-danger {
+    color: #ffffff !important;
+    ;
+    background-color: #d9534f !important;
+    border-color: #d9534f !important;
+}
+
+.materialdesign .header-right-info ul.header-right-menu li .dropdown-header-top.author-log li a:hover {
+    color: #ffffff !important;
+    /*#34495eText Color*/
+    background-color: #333 !important;
+}
+
+#MemPanelPosition .active {
+    color: #ffffff !important;
+    /*#34495eText Color*/
+    background-color: #333 !important;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current,
+.dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+    color: #434d58 !important;
+    /*#d3e4f4 Text Color*/
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e9ebea), color-stop(100%, #d3e4f4));
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+    color: #434d58 !important;
+    /*#d3e4f4 Text Color*/
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e9ebea), color-stop(100%, #d3e4f4));
+}
+
+.cart th {
+    color: #434d58 !important;
+}

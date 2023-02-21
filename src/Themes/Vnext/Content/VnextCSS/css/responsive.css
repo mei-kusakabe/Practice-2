@@ -1,0 +1,2454 @@
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1169px) {
+
+    .listbox {
+        display: none;
+    }
+
+    .form-group-inner .row .col-lg-3 {
+        padding-left: 0% !important;
+    }
+
+    /* Header Css */
+    .materialdesign .admin-dashone-data-table-area {
+        margin-top: 0%;
+    }
+
+    .admin-logo {
+        text-align: center;
+    }
+
+    .buy-button {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .header-top-menu ul.header-top-nav {
+        text-align: center;
+    }
+
+    /* form Css */
+    .login-input-head {
+        padding-left: 0px;
+    }
+
+    .login-input-head p {
+        padding-bottom: 0px;
+    }
+
+    .login-title {
+        padding: 30px 0px;
+    }
+
+    .login-input-area,
+    .login-textarea-area {
+        margin-right: 0px;
+    }
+
+    .col-lg-5.col-md-5.col-sm-0.col-xs-12 {
+        display: none;
+    }
+
+    .nav-tabs.custom-menu-wrap li a,
+    .nav-tabs.custom-menu-wrap li.open a {
+        padding: 3px 10px;
+        margin-left: 0em;
+    }
+
+    .col-lg-3.col-md-3.col-sm-12.col-xs-12.desplay-n-tablet {
+        display: none;
+    }
+
+    ul.message-list-menu li .message-info {
+        width: 311px;
+    }
+
+    .desplay-n-tablet-pro {
+        display: none;
+    }
+
+    .daily-feed-content {
+        padding-bottom: 70px;
+    }
+
+    .daily-feed-content .message-feed-single {
+        margin: 15px 0px 0px 175px;
+    }
+
+    .knob-single {
+        margin-bottom: 20px;
+    }
+
+    .input-mask-title {
+        text-align: left;
+    }
+
+    .alert-success-style1::after,
+    .alert-success-style2::after,
+    .alert-success-style3::after,
+    .alert-success-style4::after {
+        right: 70px;
+    }
+
+    .ant-res-t-30 {
+        margin-top: 30px;
+    }
+
+    .basic-ele-mg-b-10 {
+        margin-bottom: 10px;
+    }
+
+    .basic-ele-mg-t-20 {
+        margin-top: 20px;
+    }
+
+    .basic-res-b-30 {
+        margin-bottom: 30px;
+    }
+
+    .basic-ds-n {
+        display: none;
+    }
+
+    .pull-right.pull-right-pro {
+        float: left !important;
+    }
+
+    .ntn-b-mg-30 {
+        margin-bottom: 30px;
+    }
+
+    .c3-b-mg-30 {
+        margin-bottom: 30px;
+    }
+
+    .code-b-mg-30 {
+        margin-bottom: 30px;
+    }
+
+    .compose-b-mg-30 {
+        margin-bottom: 30px;
+    }
+
+    .compose-email-to,
+    .compose-multiple-email {
+        margin-top: 0px;
+    }
+
+    .view-mail-reply-list ul.view-mail-forword li {
+        padding-left: 5px;
+    }
+
+    .view-mail-reply-list ul.view-mail-forword li a {
+        padding: 4px 7px;
+    }
+
+    .compose-email-to,
+    .compose-multiple-email {
+        text-align: left;
+    }
+
+    .ct-map-b-mg-30 {
+        margin-bottom: 30px;
+    }
+
+    .ct-google-map-b-mg-30 {
+        margin-bottom: 30px;
+    }
+
+    .mg-t-40.mg-google-map-n {
+        margin-top: 0px;
+    }
+
+    .ln-ch-mg-b {
+        margin-bottom: 30px;
+    }
+
+    .md-mg-modal-b {
+        margin-bottom: 30px;
+    }
+
+    .password-mt-b {
+        margin-bottom: 30px;
+    }
+
+    .pdf-single-pro.shadow-reset .media {
+        width: 100% !important;
+        overflow-x: auto;
+        overflow-y: auto;
+        height: 100%;
+    }
+
+    .peity-mg-b-30 {
+        margin-bottom: 30px;
+    }
+
+    .preloader-mg-b-30 {
+        margin-bottom: 30px;
+    }
+
+    .profile-res-mg-b-30 {
+        margin-bottom: 30px;
+    }
+
+    .profile-time-ds-none {
+        display: none;
+    }
+
+    .progress-circular,
+    .progress-circular1 {
+        text-align: center;
+    }
+
+    .user-profile-comment-input {
+        margin-top: 10px;
+    }
+
+    .profile-online-mg-t-30 {
+        margin-top: 30px;
+    }
+
+    .profile-user-post-content p {
+        margin: 0px 0px 15px 0px;
+    }
+
+    .profile-details-name-nn {
+        display: none;
+    }
+
+    .tab-content.res-tab-content-project {
+        margin-top: 15px;
+    }
+
+    .user-profile-comment-img.projuct-details-img-tab {
+        text-align: left;
+        margin-bottom: 10px;
+    }
+
+    .rating-project-respons {
+        margin-top: 20px;
+    }
+
+    .round-mg-t-30-gl {
+        margin-top: 30px;
+    }
+
+    .sparkel-pro-mg-t-30 {
+        margin-top: 30px;
+    }
+
+    .widget-ov-mg-t-l-30 {
+        margin-top: 30px;
+    }
+
+    .tabl-d-n {}
+
+    .darklayout .knob-single input {
+        right: 130px;
+    }
+}
+
+@media (max-width: 1360px) {
+
+    .left-custom-menu-adp-wrap ul.left-sidebar-menu-pro li .left-menu-dropdown {
+        top: -56px;
+    }
+}
+
+
+@media (max-width: 1360px) and (min-width: 1300px) {
+    #registerPanelCount .form-group-inner .row #JoiningDay {
+        width: 29%;
+        margin-right: 10px;
+        border: 1px solid #e5e6e7;
+        padding: 6px 12px;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .left-custom-menu-adp-wrap ul.left-sidebar-menu-pro li .left-menu-dropdown {
+        top: -56px;
+    }
+
+    .center-align {
+        text-align: left;
+    }
+}
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    #dvCheckPanal {
+        text-align: right;
+    }
+
+    #divPayoutDate {
+        text-align: center;
+    }
+
+    #DPayoutCycle {
+        text-align: center;
+    }
+
+    .sparkline7-graph,
+    .sparkline8-graph,
+    .sparkline9-graph,
+    .sparkline11-graph,
+    .sparkline10-graph,
+    .sparkline12-graph,
+    .sparkline13-graph,
+    .sparkline14-graph,
+    .sparkline15-graph,
+    .sparkline16-graph {
+        text-align: center;
+    }
+
+    .form-group-inner .row .col-md-4 {
+        padding-left: 0% !important;
+    }
+
+    .footer-copyright-area {
+        background: #303030;
+        padding: 10px 0px;
+        text-align: center;
+        margin-left: 0px !important;
+    }
+
+    #requiedAttricSymbol {
+        margin-left: 0%;
+    }
+
+    #requiedAttricSym {
+        margin-left: 0%;
+    }
+
+    #checkrequiedAttricSymbol {
+        margin-left: 0%;
+    }
+
+    #Phone {
+        width: 78%;
+    }
+
+    #CountryCode {
+        width: 22%;
+        float: left;
+    }
+
+    #personalDetailfulllayout {
+        margin-left: 0%;
+        width: 100%;
+    }
+
+    .header-top-menu {}
+
+    .mobile-menu-area {
+        display: block;
+    }
+
+    /* Header Css */
+    .admin-logo {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .buy-button {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    /* accordion Css */
+    .responsive-accordion {
+        margin-bottom: 30px !important;
+    }
+
+    /* form Css */
+    .login-input-head {
+        padding-left: 0px;
+    }
+
+    .login-input-head p {
+        padding-bottom: 0px;
+    }
+
+    .login-title {
+        padding: 30px 0px;
+    }
+
+    .login-input-area,
+    .login-textarea-area {
+        margin-right: 0px;
+    }
+
+    .main-menu-area {
+        display: none;
+    }
+
+    .res-mg-t {
+        margin-top: 40px;
+    }
+
+    ul.message-list-menu li .message-info {
+        width: 84%;
+    }
+
+    .dashone-adminprowrap.shadow-reset.mg-b-30 {
+        text-align: center;
+    }
+
+    .dashone-doughnut {
+        padding: 0px 295px;
+    }
+
+    .res-mg-t-30 {
+        margin-top: 30px;
+    }
+
+    .col-lg-5.col-md-5.col-sm-0.col-xs-12 {
+        display: none;
+    }
+
+    .admin-logo {
+        margin-top: 0px;
+        text-align: left;
+    }
+
+    .header-right-info ul.header-right-menu li .admintab-wrap.menu-setting-wrap.dropdown-menu {
+        z-index: 9999999999;
+    }
+
+    .header-right-info ul.header-right-menu li .author-message-top,
+    .header-right-info ul.header-right-menu li .notification-author,
+    .header-right-info ul.header-right-menu li .author-log {
+        z-index: 9999999999;
+    }
+
+    .mobile-menu-area .mean-container a.meanmenu-reveal {
+        padding: 13px 0px 11px;
+    }
+
+    .daily-feed-content .message-feed-single {
+        margin: 15px 0px 0px 130px;
+    }
+
+    .daily-feed-content {
+        padding-bottom: 70px;
+    }
+
+    .knob-single {
+        margin-bottom: 20px;
+    }
+
+    .input-mask-title {
+        text-align: left;
+    }
+
+    .alert-success-style1::after,
+    .alert-success-style2::after,
+    .alert-success-style3::after,
+    .alert-success-style4::after {
+        right: 51px;
+    }
+
+    .ant-res-b-30 {
+        margin-bottom: 30px;
+    }
+
+    .ant-res-b-30.ant-res-b-nt-30 {
+        margin-bottom: 0px;
+    }
+
+    .ant-res-b-30.ant-res-b2-30 {
+        margin-bottom: 0px;
+    }
+
+    .basic-ele-mg-b-10 {
+        margin-bottom: 10px;
+    }
+
+    .basic-ele-mg-t-20 {
+        margin-top: 20px;
+    }
+
+    .basic-res-b-30 {
+        margin-bottom: 30px;
+    }
+
+    .basic-ds-n {
+        display: none;
+    }
+
+    .pull-right.pull-right-pro {
+        float: left !important;
+    }
+
+    .ntn-b-mg-30 {
+        margin-bottom: 30px;
+    }
+
+    .c3-b-mg-30 {
+        margin-bottom: 30px;
+    }
+
+    .code-b-mg-30 {
+        margin-bottom: 30px;
+    }
+
+    .compose-b-mg-30 {
+        margin-bottom: 30px;
+    }
+
+    .compose-email-to,
+    .compose-multiple-email {
+        margin-top: 0px;
+    }
+
+    .view-mail-reply-list ul.view-mail-forword li {
+        padding-left: 5px;
+    }
+
+    .view-mail-reply-list ul.view-mail-forword li a {
+        padding: 4px 7px;
+    }
+
+    .compose-email-to,
+    .compose-multiple-email {
+        text-align: left;
+    }
+
+    .ct-client-b-mg-30 {
+        margin-bottom: 30px;
+    }
+
+    .ct-client-ds-n {
+        display: none;
+    }
+
+    .ct-client-b-mg-30.ct-client-b-mg-30-n {
+        margin-bottom: 0px;
+    }
+
+    .ct-map-b-mg-30 {
+        margin-bottom: 30px;
+    }
+
+    .ct-map-b-mg-30 {
+        margin-bottom: 30px;
+    }
+
+    .ct-google-map-b-mg-30 {
+        margin-bottom: 30px;
+    }
+
+    .map-mg-t-40-gl {
+        margin-top: 40px;
+    }
+
+    .preview-img-pro-ad {
+        margin-top: 30px;
+    }
+
+    .ln-ch-mg-b {
+        margin-bottom: 30px;
+    }
+
+    .md-mg-modal-b {
+        margin-bottom: 30px;
+    }
+
+    .password-mt-b {
+        margin-bottom: 30px;
+    }
+
+    .pdf-single-pro.shadow-reset .media {
+        width: 100% !important;
+        overflow-x: auto;
+        overflow-y: auto;
+        height: 100%;
+    }
+
+    .peity-mg-b-30 {
+        margin-bottom: 30px;
+    }
+
+    .preloader-mg-b-30 {
+        margin-bottom: 30px;
+    }
+
+    .profile-res-mg-b-30 {
+        margin-bottom: 30px;
+    }
+
+    .profile-time-ds-none {
+        display: none;
+    }
+
+    .progress-circular,
+    .progress-circular1 {
+        text-align: center;
+    }
+
+    .user-profile-comment-input {
+        margin-top: 10px;
+    }
+
+    .profile-online-mg-t-30 {
+        margin-top: 30px;
+    }
+
+    .profile-user-post-content p {
+        margin: 0px 0px 15px 0px;
+    }
+
+    .profile-details-name-nn {
+        display: none;
+    }
+
+    .tab-content.res-tab-content-project {
+        margin-top: 15px;
+    }
+
+    .user-profile-comment-img.projuct-details-img-tab {
+        text-align: left;
+        margin-bottom: 10px;
+    }
+
+    .project-details-mg-t-30 {
+        margin-top: 30px;
+    }
+
+    .rating-project-respons {
+        margin-top: 20px;
+    }
+
+    .round-mg-t-30-gl {
+        margin-top: 30px;
+    }
+
+    .sparkel-pro-mg-t-30 {
+        margin-top: 30px;
+    }
+
+    .view-mail-ov-mg-t-30 {
+        margin-top: 30px;
+    }
+
+    .widget-ov-mg-t-n-30 {
+        margin-top: 30px;
+    }
+
+    .progress-circular4,
+    .progress-circular3,
+    .progress-circular2,
+    .progress-circular1 {
+        text-align: center;
+    }
+
+    /* Dark Layout Css */
+    .left-sidebar-pro {
+        display: none;
+    }
+
+    .wrapper-pro {
+        display: block;
+    }
+
+    #sidebarCollapse {
+        display: none;
+    }
+
+    .fixed-header-top {
+        position: relative;
+    }
+
+    .des-none {
+        display: block;
+    }
+
+    .small-dn {
+        display: none;
+    }
+
+    ul.message-list-menu li .message-time {
+        float: right;
+    }
+
+    .logo-wrap-pro {
+        display: block;
+    }
+
+    .mini-navbar .content-inner-all {
+        margin-left: 0px;
+        transition: all 0.3s;
+    }
+
+    .content-inner-all {
+        margin-left: 0px;
+        transition: all 0.3s;
+    }
+
+    .fixed-header-top {
+        left: 0px;
+    }
+
+    .darklayout .knob-single input {
+        right: 120px;
+    }
+
+    .materialdesign .admin-dashone-data-table-area {
+        margin-top: 10% !important;
+    }
+
+    #Administartor {
+        font-size: 1.0rem;
+        font-weight: bold;
+    }
+}
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+
+    .alignDetailcenter {
+        /*padding-left: 20%;*/
+    }
+
+    .center-align {
+        text-align: center;
+    }
+
+    #personalInfoImagePanel {
+        width: 100%;
+        margin-left: -10%;
+    }
+
+    #personalInfoDetailPanel {
+        width: 100%;
+        margin-left: 0%;
+        text-align: center;
+    }
+
+    .brow {
+        margin-left: 35px;
+    }
+
+    #personalDetails #Phone {
+        margin-top: 0px;
+    }
+
+    #personalDetails #upload-ProfilePicture {
+        margin-top: 1%;
+        margin-bottom: 2%;
+        margin-left: -2%;
+    }
+
+    #personalDetails #genderDetails {
+        padding-left: 12%;
+    }
+
+    .footer-copyright-area {
+        background: #303030;
+        padding: 10px 0px;
+        text-align: center;
+        margin-left: 0px !important;
+    }
+
+    .materialdesign .admin-dashone-data-table-area {
+        margin-top: 22% !important;
+    }
+
+    sparkline13-list {
+        margin-top: 25px;
+    }
+
+    .nav-tabs>li {
+        float: left;
+        margin-bottom: -8px !important;
+    }
+
+    #requiedAttricSymbol {
+        margin-left: 0%;
+    }
+
+    #requiedAttricSym {
+        margin-left: 0%;
+    }
+
+    #checkrequiedAttricSymbol {
+        margin-left: 0%;
+    }
+
+    #Phone {
+        margin-left: 0px !important;
+        width: 77%;
+        float: left;
+    }
+
+    #CountryCode {
+        width: 22%;
+        float: left;
+    }
+
+    .brow {
+        margin-left: 50px;
+    }
+
+    .ordertext {
+        margin-top: 0px;
+    }
+
+    .remove {
+        margin-left: 0%;
+    }
+
+    #personalDetailfulllayout {
+        margin-left: 0%;
+        width: 100%;
+    }
+
+    .navbar-nav {
+        margin: 0px 0px;
+    }
+
+    .header-top-menu .navbar-nav>li>a {
+        padding: 10px 5px;
+        color: #fff;
+        font-size: 1.2rem;
+    }
+
+    .nav-tabs.custom-menu-wrap li a {
+        border: 1px solid transparent;
+        padding: 9px 25px;
+        font-size: 15px;
+        border: 1px solid transparent;
+        padding: 6px 15px;
+        font-size: 0.8em;
+        /* margin-left: 30px;*/
+    }
+
+    .main-spark-hd h1,
+    .smart-main-spark-hd h1,
+    .main-spark7-hd h1,
+    .main-sparkline8-hd h1,
+    .main-sparkline9-hd h1,
+    .main-sparkline10-hd h1,
+    .main-sparkline11-hd h1,
+    .main-sparkline12-hd h1,
+    .main-sparkline13-hd h1,
+    .main-sparkline14-hd h1,
+    .main-sparkline15-hd h1,
+    .main-sparkline16-hd h1 {
+        font-size: 0.9em;
+        color: #fff;
+        position: relative;
+        margin: 0px;
+    }
+
+
+    .header-top-area {
+        height: 150px !important;
+    }
+
+    .container {
+        width: 300px;
+    }
+
+    .header-top-menu {
+        /*display: none;*/
+        float: none;
+        /*padding: 17px 0px;*/
+        padding: 0px 0px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .header-top-menu ul.mai-top-nav li {
+        display: inline-block;
+    }
+
+    .header-top-menu .navbar-nav>li>a {
+        padding: 20px 5px;
+    }
+
+    .materialdesign .admin-dashone-data-table-area {
+        /*margin-top: 35%;*/
+        margin-top: 22%;
+    }
+
+    .mobile-menu-area {
+        display: block;
+        /*background: #1d68ba; change BY KB*/
+    }
+
+    #ReturnRequestStyle {
+        margin-top: 2%;
+    }
+
+    /* Header Css */
+    .admin-logo {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .buy-button {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    /* accordion Css */
+    .responsive-accordion {
+        margin-bottom: 30px !important;
+    }
+
+    /* Button Css */
+    .responsive-btn .btn {
+        margin-bottom: 10px !important;
+    }
+
+    .responsive-btn .btn-button-ct {
+        margin-bottom: 10px !important;
+    }
+
+    /* form Css */
+    .login-input-head {
+        padding-left: 0px;
+    }
+
+    .login-input-head p {
+        padding-bottom: 0px;
+    }
+
+    .login-title {
+        padding: 30px 0px;
+    }
+
+    .login-input-area,
+    .login-textarea-area {
+        margin-right: 0px;
+    }
+
+    /* dropzone Css */
+    .dropzone-custom-sys,
+    .tab-content-details {
+        padding: 30px 20px;
+    }
+
+    /* review Css */
+    .review-title {
+        text-align: center;
+    }
+
+    .review-rating {
+        padding: 0 30px;
+    }
+
+    .login-button-pro {
+        text-align: center;
+    }
+
+    /* tabs Css */
+    .nav-tabs.custom-menu-wrap li a {
+        margin-bottom: 10px;
+    }
+
+    /* Dashboard v.1 Css */
+
+    .header-right-info .admin-name {
+        display: none;
+    }
+
+    .header-right-info .navbar-nav {
+        float: none;
+        padding: 17px 0px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .header-right-info ul.header-right-menu li .author-log {
+        left: -65px;
+    }
+
+    .header-right-info ul.header-right-menu li .admintab-wrap.menu-setting-wrap.dropdown-menu {
+        left: -196px;
+        width: 307px;
+    }
+
+    .header-right-info ul.header-right-menu li .notification-author {
+        left: -84px;
+    }
+
+    .header-right-info ul.header-right-menu li .author-message-top,
+    .header-right-info ul.header-right-menu li .notification-author,
+    .header-right-info ul.header-right-menu li .author-log {
+        width: 307px;
+    }
+
+    .header-right-info .author-message-top::before {
+        right: 63%;
+    }
+
+    .header-right-info ul.header-right-menu li .author-message-top {
+        left: -78px;
+    }
+
+    .header-right-info .notification-author::before {
+        right: 63%;
+    }
+
+    .main-menu-area {
+        display: none;
+    }
+
+    .res-mg-t {
+        margin-top: 40px;
+    }
+
+    .res-mg-t-30 {
+        margin-top: 30px;
+    }
+
+    .res-mg-b-10 {
+        margin-bottom: 10px;
+    }
+
+    ul.message-list-menu li .message-time {
+        text-align: right;
+        width: 43%;
+        display: block;
+    }
+
+    ul.message-list-menu li .message-info {
+        width: 190px;
+    }
+
+    .header-right-info ul.header-right-menu li .admintab-wrap.menu-setting-wrap.dropdown-menu {
+        z-index: 9999999999;
+    }
+
+    .header-right-info ul.header-right-menu li .author-message-top,
+    .header-right-info ul.header-right-menu li .notification-author,
+    .header-right-info ul.header-right-menu li .author-log {
+        z-index: 9999999999;
+    }
+
+    .dashone-doughnut {
+        padding: 0px 68px;
+    }
+
+    .datatable-dashv1-list .pull-right {
+        text-align: center;
+    }
+
+    .icon-date-timeline {
+        text-align: center;
+    }
+
+    .timeline-content {
+        padding: 15px 10px;
+    }
+
+    .mCSB_inside>.mCSB_container {
+        margin-right: 15px;
+    }
+
+    .icon-date-timeline {
+        border-right: 1px solid #ccc;
+    }
+
+    .timeline-content {
+        border-left: 1px solid #ccc;
+    }
+
+    .mobile-menu-area .mean-container a.meanmenu-reveal {
+        padding: 13px 0px 11px;
+    }
+
+    .custom-datatable-overright .fixed-table-pagination div.pagination,
+    .fixed-table-pagination .pagination-detail {
+        margin-right: 5px;
+    }
+
+    .res-ds-n {
+        display: none;
+    }
+
+    .res-ds-n-t {
+        display: none;
+    }
+
+    .daily-feed-content .message-feed-single {
+        margin: 15px 0px 0px 30px;
+    }
+
+    .knob-single {
+        margin-bottom: 20px;
+    }
+
+    .input-mask-title {
+        text-align: left;
+    }
+
+    .alert-success-style1 p,
+    .alert-success-style2 p,
+    .alert-success-style3 p,
+    .alert-success-style4 p {
+        margin: 0px 20px 0px 50px;
+    }
+
+    .alert-success-style1 .icon-sc-cl,
+    .alert-success-style2 .icon-sc-cl,
+    .alert-success-style3 .icon-sc-cl,
+    .alert-success-style4 .icon-sc-cl {
+        right: -10px;
+    }
+
+    .ant-res-b-30 {
+        margin-bottom: 30px;
+    }
+
+    .basic-ele-mg-b-10 {
+        margin-bottom: 10px;
+    }
+
+    .basic-ele-mg-t-20 {
+        margin-top: 20px;
+    }
+
+    .basic-res-b-30 {
+        margin-bottom: 30px;
+    }
+
+    .basic-ds-n {
+        display: none;
+    }
+
+    .pull-right.pull-right-pro {
+        float: left !important;
+    }
+
+    .ntn-b-mg-30 {
+        margin-bottom: 30px;
+    }
+
+    .c3-b-mg-30 {
+        margin-bottom: 30px;
+    }
+
+    .code-b-mg-30 {
+        margin-bottom: 30px;
+    }
+
+    .compose-b-mg-30 {
+        margin-bottom: 30px;
+    }
+
+    .view-mail-action {
+        display: none;
+    }
+
+    .mail-title h2 {
+        text-align: center;
+    }
+
+    .compose-email-to,
+    .compose-multiple-email {
+        margin-top: 0px;
+    }
+
+    .view-mail-reply-list ul.view-mail-forword li {
+        padding-left: 5px;
+    }
+
+    .view-mail-reply-list ul.view-mail-forword li a {
+        padding: 4px 7px;
+    }
+
+    .c3-ds-n {
+        display: none;
+    }
+
+    .ct-client-b-mg-30 {
+        margin-bottom: 30px;
+    }
+
+    .ct-map-b-mg-30 {
+        margin-bottom: 30px;
+    }
+
+    .table-project-n {
+        display: none;
+    }
+
+    .ct-google-map-b-mg-30 {
+        margin-bottom: 30px;
+    }
+
+    .map-mg-t-40-gl {
+        margin-top: 40px;
+    }
+
+    .preview-img-pro-ad {
+        margin-top: 30px;
+    }
+
+    .cropper-container {
+        left: 0px !important;
+    }
+
+    .img-cropper-cp {
+        margin-bottom: 10px;
+    }
+
+    .img-cropper-cp-t {
+        margin-top: 10px;
+    }
+
+    .ln-ch-mg-b {
+        margin-bottom: 30px;
+    }
+
+    .md-mg-modal-b {
+        margin-bottom: 30px;
+    }
+
+    .password-mt-b {
+        margin-bottom: 30px;
+    }
+
+    .password-mt-none {
+        display: none;
+    }
+
+    .pdf-single-pro.shadow-reset .media,
+    .project-details-completeness {
+        width: 100% !important;
+        overflow-x: auto;
+        overflow-y: auto;
+        height: 100%;
+    }
+
+    .peity-mg-b-30 {
+        margin-bottom: 30px;
+    }
+
+    .peity-res-scroll,
+    .res-tree-ov {
+        width: 100% !important;
+        overflow-x: auto;
+        overflow-y: auto;
+        height: 100%;
+    }
+
+    .preloader-mg-b-30 {
+        margin-bottom: 30px;
+    }
+
+    .user-profile-post-action .comment-action-st,
+    .user-profile-post-action .comment-action-st.in {
+        width: 85%;
+    }
+
+    .profile-res-mg-b-30 {
+        margin-bottom: 30px;
+    }
+
+    .profile-time-ds-none {
+        display: none;
+    }
+
+    .progress-circular,
+    .progress-circular1 {
+        text-align: center;
+    }
+
+    .user-profile-comment-input {
+        margin-top: 10px;
+    }
+
+    .profile-online-mg-t-30 {
+        margin-top: 30px;
+    }
+
+    .project-details-mg {
+        /*   margin: 0px !important;*/
+        margin-left: 20px;
+        margin-right: 5px;
+    }
+
+    .project-details-st {
+        text-align: left;
+        margin-top: 20px;
+    }
+
+    .profile-details-name-nn {
+        display: none;
+    }
+
+    .nav.res-pd-less-sm>li>a {
+        padding: 10px 9px;
+    }
+
+    .tab-content.res-tab-content-project {
+        margin-top: 15px;
+    }
+
+    .user-profile-comment-img.projuct-details-img-tab {
+        text-align: left;
+        margin-bottom: 10px;
+    }
+
+    .project-details-mg-t-30 {
+        margin-top: 30px;
+    }
+
+    .rating-project-respons {
+        margin-top: 20px;
+    }
+
+    .round-mg-t-30-gl {
+        margin-top: 30px;
+    }
+
+    .sparkel-pro-mg-t-30 {
+        margin-top: 30px;
+    }
+
+    .nav-tabs.custom-menu-wrap li a {
+        padding: 5px 3px;
+    }
+
+    .view-mail-ov-mg-t-30 {
+        margin-top: 30px;
+    }
+
+    .view-mail-ov-d-n {
+        display: none;
+    }
+
+    .mail-title h2 {
+        text-align: left;
+    }
+
+    .view-author-mail .view-mail-date {
+        float: left;
+    }
+
+    .view-mail-mg-b-10 {
+        margin-bottom: 10px;
+    }
+
+    .widget-ov-mg-t-30 {
+        margin-top: 30px;
+    }
+
+    .progress-circular4,
+    .progress-circular3,
+    .progress-circular2,
+    .progress-circular1 {
+        text-align: center;
+    }
+
+    /* Dark Layout Css */
+    .left-sidebar-pro {
+        display: none;
+    }
+
+    .wrapper-pro {
+        display: block;
+    }
+
+    #sidebarCollapse {
+        display: none;
+    }
+
+    .fixed-header-top {
+        position: relative;
+    }
+
+    .des-none {
+        display: block;
+    }
+
+    .small-dn {
+        display: none;
+    }
+
+    .breadcome-heading h2 {
+        font-size: 18px;
+    }
+
+    ul.message-list-menu li .message-time {
+        width: 20%;
+        float: right;
+    }
+
+    #sparklinedask1 {
+        text-align: center;
+    }
+
+    .dashone-doughnut {
+        text-align: center;
+    }
+
+    .dash-adminpro-project-title {
+        text-align: center;
+    }
+
+    .project-dashone-phara {
+        text-align: center;
+    }
+
+    .logo-wrap-pro {
+        display: block;
+    }
+
+    .icon-date-timeline {
+        border-right: 0px solid #ccc;
+    }
+
+    .timeline-content {
+        border-left: 0px solid #ccc;
+        text-align: center;
+    }
+
+    .bs-bars.pull-left,
+    .fixed-table-toolbar .columns {
+        width: 100%;
+        text-align: center;
+    }
+
+    .datatable-dashv1-list .pull-right {
+        width: 100%;
+        text-align: center;
+    }
+
+    .mini-navbar .content-inner-all {
+        margin-left: 0px;
+        transition: all 0.3s;
+    }
+
+    .content-inner-all {
+        margin-left: 0px;
+        transition: all 0.3s;
+    }
+
+    .fixed-header-top {
+        left: 0px;
+    }
+
+    .darklayout .knob-single input {
+        right: 120px;
+    }
+
+    .mobile-menu-area {
+        display: block;
+    }
+}
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    #CHVAllowUserSelectFID {
+        text-align: center !important;
+    }
+
+    .materialdesign .footer-copyright-area {
+        z-index: 99999;
+    }
+
+    #registerPanelCount .form-group-inner .row #JoiningDay {
+        width: 29%;
+        margin-right: 10px;
+        border: 1px solid #e5e6e7;
+        padding: 6px 12px;
+    }
+
+    .header-right-info ul.header-right-menu li {
+        margin-left: -7px;
+    }
+
+    #registerPanelCount #genderRegisterDetails #gender-Other {
+        margin-left: 40%;
+    }
+
+    #registerPanelCount #genderRegisterDetails #gender-Other {
+        margin-left: 40% !important;
+    }
+
+    #dvCheckPanal {
+        text-align: center;
+    }
+
+    #RegisterSuccess {
+        margin-top: 25px;
+        margin-bottom: 50px;
+    }
+
+    #divPayoutDate {
+        text-align: center;
+    }
+
+    #DPayoutCycle {
+        text-align: center;
+    }
+
+    #DPayoutCycle {
+        text-align: left;
+    }
+
+    #CustomerInfoDtails .form-group-inner .row .col-md-4 {
+        /*padding-left: 20% !important;*/
+        text-align: center;
+    }
+
+    #CustomerInfoDtails #requiedAttricSymbol {
+        text-align: center !important;
+    }
+
+    .sparkline7-graph,
+    .sparkline8-graph,
+    .sparkline9-graph,
+    .sparkline11-graph,
+    .sparkline10-graph,
+    .sparkline12-graph,
+    .sparkline13-graph,
+    .sparkline14-graph,
+    .sparkline15-graph,
+    .sparkline16-graph {
+        text-align: center;
+    }
+
+    .form-group-inner .row .col-md-4 {
+        padding-left: 0% !important;
+    }
+
+    #registerPanelCount #divCountryCode {
+        /*margin-left: 2%;*/
+    }
+
+    #registerPanelCount #divPhone {
+        width: 75%;
+        float: right;
+    }
+
+    #registerPanelCount #divPhone #Phone {
+        margin-left: 0px !important;
+        width: 100%;
+        float: left;
+    }
+
+    #registerPanelCount {
+        width: 100% !important;
+        margin-top: 10% !important;
+        padding-left: 2%;
+    }
+
+    .nav-tabs>li {
+        float: left;
+        margin-bottom: 5px !important;
+    }
+
+    #registerPanelCount #genderRegisterDetails #gender-Other {
+        margin-left: 40%;
+    }
+
+    #registerPanelCount #genderRegisterDetails #gender-male {
+        margin-left: 40%;
+    }
+
+    #registerPanelCount #genderRegisterDetails #gender-female {
+        margin-left: 40%;
+    }
+
+    .footer-copyright-area {
+        background: #303030;
+        padding: 10px 0px;
+        text-align: center;
+        margin-left: 0px !important;
+    }
+
+    #checkrequiedAttricSymbol {
+        margin-left: 0%;
+    }
+
+    #requiedAttricSymbol {
+        margin-left: 0%;
+    }
+
+    #requiedAttricSym {
+        margin-left: 0%;
+    }
+
+    #Phone {
+        margin-left: 0px !important;
+        width: 80%;
+        float: left;
+    }
+
+    #CountryCode {
+        width: 20%;
+        float: left;
+    }
+
+    .main-spark-hd h1,
+    .smart-main-spark-hd h1,
+    .main-spark7-hd h1,
+    .main-sparkline8-hd h1,
+    .main-sparkline9-hd h1,
+    .main-sparkline10-hd h1,
+    .main-sparkline11-hd h1,
+    .main-sparkline12-hd h1,
+    .main-sparkline13-hd h1,
+    .main-sparkline14-hd h1,
+    .main-sparkline15-hd h1,
+    .main-sparkline16-hd h1 {
+        font-size: 1.2em;
+        color: #fff;
+        position: relative;
+        margin: 0px;
+        color: #1d252c;
+    }
+
+    .sparkline16-graph,
+    .sparkline16-graph {
+        /* margin-top: 1em;*/
+    }
+
+    .container {
+        width: 450px;
+    }
+
+    .header-top-menu {
+        /*display: none;*/
+    }
+
+    .mobile-menu-area {
+        display: block;
+    }
+
+    .review-title {
+        text-align: center;
+    }
+
+    .review-rating {
+        padding: 0 110px;
+    }
+
+    .login-button-pro {
+        text-align: center;
+    }
+
+    ul.message-list-menu li .message-time {
+        text-align: right;
+        display: inline;
+    }
+
+    ul.message-list-menu li .message-info {
+        width: 275px;
+    }
+
+    .dash-adminpro-project-title {
+        text-align: center;
+    }
+
+    .project-dashone-phara {
+        text-align: center;
+    }
+
+    .dashone-doughnut {
+        padding: 0px 145px;
+    }
+
+    .daily-feed-content .message-feed-single {
+        margin: 15px 0px 0px 90px;
+    }
+
+    .res-ds-n-t {
+        display: block;
+    }
+
+    .daily-feed-content h4 {
+        font-size: 16px;
+    }
+
+    .alert-success-style1 .icon-sc-cl,
+    .alert-success-style2 .icon-sc-cl,
+    .alert-success-style3 .icon-sc-cl,
+    .alert-success-style4 .icon-sc-cl {
+        right: -5px;
+    }
+
+    .mail-title h2 {
+        text-align: left;
+    }
+
+    .compose-email-to,
+    .compose-multiple-email {
+        text-align: left;
+    }
+
+    .view-mail-action {
+        display: block;
+    }
+
+    .table-project-n {
+        display: inline-block;
+    }
+
+    .view-mail-ov-d-n {
+        display: none;
+    }
+
+    .darklayout .knob-single input {
+        right: 240px;
+    }
+
+    .project-details-mg {
+        margin-left: 20px;
+        margin-right: 5px;
+    }
+
+    .alignDetailcenter {
+        /*padding-left: 20%;*/
+    }
+
+    .center-align {
+        text-align: center;
+    }
+
+    #personalInfoImagePanel {
+        width: 100%;
+        margin-left: -10%;
+    }
+
+    #personalInfoDetailPanel {
+        width: 100%;
+        margin-left: 0%;
+        text-align: center;
+    }
+
+    .brow {
+        margin-left: 35px;
+    }
+
+    #personalDetails #Phone {
+        margin-top: 0px;
+    }
+
+    #personalDetails #upload-ProfilePicture {
+        margin-top: 1%;
+        margin-bottom: 2%;
+        margin-left: -2%;
+    }
+
+    #personalDetails #genderDetails {
+        padding-left: 12%;
+    }
+}
+
+@media only screen and (min-width: 480px) {
+    .materialdesign .footer-copyright-area {
+        z-index: 99999;
+    }
+
+    .nav-tabs>li {
+        float: left;
+        margin-bottom: 5px !important;
+    }
+
+
+    .footer-copyright-area {
+        background: #303030;
+        padding: 10px 0px;
+        text-align: center;
+    }
+
+    sparkline13-list {
+        margin-top: 25px;
+    }
+
+
+    .main-spark-hd h1,
+    .smart-main-spark-hd h1,
+    .main-spark7-hd h1,
+    .main-sparkline8-hd h1,
+    .main-sparkline9-hd h1,
+    .main-sparkline10-hd h1,
+    .main-sparkline11-hd h1,
+    .main-sparkline12-hd h1,
+    .main-sparkline13-hd h1,
+    .main-sparkline14-hd h1,
+    .main-sparkline15-hd h1,
+    .main-sparkline16-hd h1 {
+        font-size: 1.1em;
+        color: #fff;
+        position: relative;
+        margin: 0px;
+    }
+}
+
+
+@media (max-width: 460px) {
+    #CHVAllowUserSelectFID {
+        text-align: center !important;
+    }
+
+    .materialdesign .footer-copyright-area {
+        z-index: 99999;
+    }
+
+    #personalInfoDetailPanel {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .header-right-info ul.header-right-menu li .dropdown-header-top.author-log li a {
+        margin-left: 8px;
+    }
+
+    .materialdesign .admin-dashone-data-table-area {
+        margin-top: 35% !important;
+    }
+
+    .nav-tabs>li {
+        float: left;
+        margin-bottom: 5px !important;
+    }
+
+    .alignDetailcenter {
+        /*padding-left: 20%;*/
+    }
+
+    #personalInfoImagePanel {
+        width: 100%;
+        margin-left: -10%;
+    }
+
+    #personalInfoDetailPanel {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .brow {
+        margin-left: 35px;
+    }
+
+    #personalDetails #Phone {
+        margin-top: 0px;
+    }
+
+    #personalDetails #upload-ProfilePicture {
+        margin-top: 1%;
+        margin-bottom: 2%;
+        margin-left: -2%;
+    }
+
+    #personalDetails #genderDetails {
+        padding-left: 12%;
+    }
+
+    #registerPanelCount {
+        width: 100% !important;
+        margin-top: 20% !important;
+        padding-left: 2%;
+    }
+
+    #registerPanelCount #divCountryCode {
+        margin-left: 4%;
+    }
+
+    #registerPanelCount #divPhone {
+        width: 75%;
+        float: right;
+    }
+
+    #registerPanelCount #divPhone #Phone {
+        margin-left: 0px !important;
+        width: 96%;
+        float: left;
+    }
+
+    #registerPanelCount #requiedAttricSymbol {
+        text-align: center;
+    }
+
+    .sparkline7-graph,
+    .sparkline8-graph,
+    .sparkline9-graph,
+    .sparkline11-graph,
+    .sparkline10-graph,
+    .sparkline12-graph,
+    .sparkline13-graph,
+    .sparkline14-graph,
+    .sparkline15-graph,
+    .sparkline16-graph {
+        text-align: center;
+    }
+
+    .form-group-inner .row .col-md-4 {
+        padding-left: 0% !important;
+    }
+
+    #registerPanelCount #genderRegisterDetails #gender-Other {
+        margin-left: 40%;
+    }
+
+    #registerPanelCount #genderRegisterDetails #gender-male {
+        margin-left: 40%;
+    }
+
+    #registerPanelCount #genderRegisterDetails #gender-female {
+        margin-left: 40%;
+    }
+
+    #CustomerInfoDtails .form-group-inner .row .col-md-4 {
+        /*padding-left: 5% !important;*/
+        text-align: center;
+    }
+
+    #personalInfoDetailPanel {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    #CustomerInfoDtails #requiedAttricSymbol {
+        text-align: center !important;
+    }
+
+    #divPayoutDate {
+        text-align: center;
+    }
+
+    #DPayoutCycle {
+        text-align: center;
+    }
+
+    #RegisterSuccess {
+        margin-top: 25px;
+        margin-bottom: 50px;
+    }
+
+    #dvCheckPanal {
+        text-align: center;
+    }
+
+    .header-right-info ul.header-right-menu li {
+        margin-left: -7px;
+    }
+}
+
+/* small mobile :320px. */
+@media (max-width: 360px) {
+    #CHVAllowUserSelectFID {
+        text-align: center !important;
+    }
+
+    .materialdesign .footer-copyright-area {
+        z-index: 99999;
+    }
+
+    #personalInfoDetailPanel {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .header-right-info ul.header-right-menu li .dropdown-header-top.author-log li a {
+        margin-left: 8px;
+    }
+
+    .nav-tabs>li {
+        float: left;
+        margin-bottom: 5px !important;
+    }
+
+    label {
+        padding-left: 15px !important;
+    }
+
+    #allPanelshow .sparkline16-graph {
+        padding: 5px;
+        background: #fff;
+        margin-bottom: 7em !important;
+    }
+
+    .sparkline16-graph {
+        padding: 5px;
+        background: #fff;
+        margin-bottom: 2em !important;
+    }
+
+    .footer-copyright-area {
+        background: #303030;
+        padding: 10px 0px;
+        text-align: center;
+        margin-left: 0px;
+    }
+
+
+    #requiedAttricSymbol {
+        margin-left: 4% !important;
+    }
+
+    #requiedAttricSym {
+        margin-left: 4% !important;
+    }
+
+    #checkrequiedAttricSymbol {
+        margin-left: 4% !important;
+    }
+
+    .main-spark-hd h1,
+    .smart-main-spark-hd h1,
+    .main-spark7-hd h1,
+    .main-sparkline8-hd h1,
+    .main-sparkline9-hd h1,
+    .main-sparkline10-hd h1,
+    .main-sparkline11-hd h1,
+    .main-sparkline12-hd h1,
+    .main-sparkline13-hd h1,
+    .main-sparkline14-hd h1,
+    .main-sparkline15-hd h1,
+    .main-sparkline16-hd h1 {
+        /*font-size: 1.2em;*/
+        font-size: 1em;
+        color: #fff;
+        position: relative;
+        margin: 0px;
+    }
+
+
+    .materialdesign .admin-dashone-data-table-area {
+        margin-top: 45% !important;
+    }
+
+    sparkline13-list {
+        margin-top: 25px;
+    }
+
+    #Administartor {
+        font-size: 1.1rem;
+        font-weight: bold;
+    }
+
+    #Phone {
+        margin-left: 0px !important;
+        width: 77%;
+        float: left;
+    }
+
+    #CountryCode {
+        width: 22%;
+        float: left;
+    }
+
+    .alignDetailcenter {
+        /*padding-left: 20%;*/
+    }
+
+    #personalInfoImagePanel {
+        width: 100%;
+        margin-left: -10%;
+    }
+
+    #personalInfoDetailPanel {
+        width: 100%;
+        margin-left: 0%;
+        text-align: center;
+    }
+
+    .brow {
+        margin-left: 35px;
+    }
+
+    #personalDetails #Phone {
+        margin-top: 0px;
+    }
+
+    #personalDetails #upload-ProfilePicture {
+        margin-top: 1%;
+        margin-bottom: 2%;
+        margin-left: -2%;
+    }
+
+    #personalDetails #genderDetails {
+        padding-left: 35%;
+    }
+
+    #registerPanelCount {
+        width: 100% !important;
+        margin-top: 4% !important;
+        padding-left: 2%;
+    }
+
+    #registerPanelCount #divCountryCode {
+        /* margin-left: 6%;*/
+    }
+
+    #registerPanelCount #divPhone {
+        width: 66%;
+        float: right;
+    }
+
+    #registerPanelCount #divPhone #Phone {
+        margin-left: 0px !important;
+        width: 100%;
+        float: left;
+    }
+
+    #registerPanelCount #requiedAttricSymbol {
+        text-align: center;
+    }
+
+    .sparkline7-graph,
+    .sparkline8-graph,
+    .sparkline9-graph,
+    .sparkline11-graph,
+    .sparkline10-graph,
+    .sparkline12-graph,
+    .sparkline13-graph,
+    .sparkline14-graph,
+    .sparkline15-graph,
+    .sparkline16-graph {
+        text-align: center;
+    }
+
+    .form-group-inner .row .col-md-4 {
+        padding-left: 0% !important;
+    }
+
+    #registerPanelCount #genderRegisterDetails #gender-Other {
+        margin-left: 40%;
+    }
+
+    #registerPanelCount #genderRegisterDetails #gender-male {
+        margin-left: 40%;
+    }
+
+    #registerPanelCount #genderRegisterDetails #gender-female {
+        margin-left: 40%;
+    }
+
+    #CustomerInfoDtails .form-group-inner .row .col-md-4 {
+        /*padding-left: 8% !important;*/
+        text-align: center;
+    }
+
+    #CustomerInfoDtails #requiedAttricSymbol {
+        text-align: center !important;
+    }
+
+    #divPayoutDate {
+        text-align: center;
+    }
+
+    #DPayoutCycle {
+        text-align: center;
+    }
+
+    #RegisterSuccess {
+        margin-top: 25px;
+        margin-bottom: 50px;
+    }
+
+    #dvCheckPanal {
+        text-align: center;
+    }
+
+    #registerPanelCount .form-group-inner .row #divCountryCode {
+        padding-left: 2px !important;
+        width: 100%;
+    }
+
+    #registerPanelCount #genderRegisterDetails #gender-Other {
+        margin-left: 40%;
+    }
+
+    #registerPanelCount #divPhone {
+        width: 74%;
+        float: right;
+    }
+
+    .header-right-info ul.header-right-menu li {
+        margin-left: -7px;
+    }
+
+    #registerPanelCount .form-group-inner .row #JoiningDay {
+        width: 26%;
+        margin-right: 10px;
+        border: 1px solid #e5e6e7;
+        padding: 6px 12px;
+    }
+
+    #personalDetails .form-group-inner .row #DateOfBirthDay {
+        width: 29%;
+        margin-right: 6px;
+        border: 1px solid #e5e6e7;
+        padding: 6px 12px;
+    }
+
+    #NomineeDetails .form-group-inner .row #DateOfBirthDay {
+        width: 29%;
+        margin-right: 6px;
+        border: 1px solid #e5e6e7;
+        padding: 6px 12px;
+    }
+
+    #SetManualdate .form-group-inner .row #JoiningYear {
+        width: 31%;
+        border: 1px solid #e5e6e7;
+        padding: 6px 12px;
+    }
+}
+
+
+
+@media (max-width: 320px) {
+
+    #CHVAllowUserSelectFID {
+        text-align: center !important;
+    }
+
+    #personalInfoDetailPanel {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .materialdesign .footer-copyright-area {
+        z-index: 99999;
+    }
+
+
+    .header-right-info ul.header-right-menu li .dropdown-header-top.author-log li a {
+        margin-left: 8px;
+    }
+
+    #SetManualdate .form-group-inner .row #JoiningYear {
+        width: 30%;
+        border: 1px solid #e5e6e7;
+        padding: 6px 12px;
+    }
+
+    .sparkline13-list {
+        margin-top: 8%;
+    }
+
+    #registerPanelCount .form-group-inner .row #JoiningDay {
+        width: 26%;
+        margin-right: 10px;
+        border: 1px solid #e5e6e7;
+        padding: 6px 12px;
+    }
+
+    #personalDetails .form-group-inner .row #DateOfBirthMonth {
+        width: 31%;
+        margin-right: 6px;
+        border: 1px solid #e5e6e7;
+        padding: 6px 12px;
+    }
+
+    #NomineeDetails .form-group-inner .row #DateOfBirthDay {
+        width: 31%;
+        margin-right: 6px;
+        border: 1px solid #e5e6e7;
+        padding: 6px 12px;
+    }
+
+    .nav-tabs>li {
+        float: left;
+        margin-bottom: 5px !important;
+    }
+
+    label {
+        padding-left: 15px !important;
+    }
+
+    #allPanelshow .sparkline16-graph {
+        padding: 5px;
+        background: #fff;
+        margin-bottom: 7em !important;
+    }
+
+    .sparkline16-graph {
+        padding: 5px;
+        background: #fff;
+        margin-bottom: 2em !important;
+    }
+
+    .footer-copyright-area {
+        background: #303030;
+        padding: 10px 0px;
+        text-align: center;
+        margin-left: 0px !important;
+    }
+
+
+    #requiedAttricSymbol {
+        margin-left: 0% !important;
+    }
+
+    #requiedAttricSym {
+        margin-left: 0% !important;
+    }
+
+    #checkrequiedAttricSymbol {
+        margin-left: 0% !important;
+    }
+
+    .main-spark-hd h1,
+    .smart-main-spark-hd h1,
+    .main-spark7-hd h1,
+    .main-sparkline8-hd h1,
+    .main-sparkline9-hd h1,
+    .main-sparkline10-hd h1,
+    .main-sparkline11-hd h1,
+    .main-sparkline12-hd h1,
+    .main-sparkline13-hd h1,
+    .main-sparkline14-hd h1,
+    .main-sparkline15-hd h1,
+    .main-sparkline16-hd h1 {
+        /*font-size: 1.2em;*/
+        font-size: 1em;
+        color: #fff;
+        position: relative;
+        margin: 0px;
+    }
+
+    .materialdesign .admin-dashone-data-table-area {
+        margin-top: 45% !important;
+    }
+
+    sparkline13-list {
+        margin-top: 25px;
+    }
+
+    #Administartor {
+        font-size: 1.1rem;
+        font-weight: bold;
+    }
+
+
+
+    #personalInfoImagePanel {
+        width: 100%;
+        margin-left: -10%;
+    }
+
+    #personalInfoDetailPanel {
+        width: 100%;
+        margin-left: 0%;
+        text-align: center;
+    }
+
+    .brow {
+        margin-left: 35px;
+    }
+
+    #personalDetails #Phone {
+        margin-top: 0px;
+    }
+
+    #personalDetails #upload-ProfilePicture {
+        margin-top: 1%;
+        margin-bottom: 2%;
+        margin-left: -2%;
+    }
+
+    #personalDetails #genderDetails {
+        padding-left: 30%;
+    }
+
+    .alignDetailcenter {
+        /*padding-left: 20%;*/
+    }
+
+    .center-align {
+        text-align: center;
+    }
+
+    #registerPanelCount {
+        width: 100% !important;
+        margin-top: 6% !important;
+        padding-left: 2%;
+    }
+
+
+    #registerPanelCount #divCountryCode {
+        margin-left: -1%;
+    }
+
+    #registerPanelCount #divPhone {
+        width: 74%;
+        float: right;
+    }
+
+    #registerPanelCount #divPhone #Phone {
+        margin-left: 0px !important;
+        width: 100%;
+        float: left;
+    }
+
+    #registerPanelCount #requiedAttricSymbol {
+        text-align: center;
+    }
+
+    .sparkline7-graph,
+    .sparkline8-graph,
+    .sparkline9-graph,
+    .sparkline11-graph,
+    .sparkline10-graph,
+    .sparkline12-graph,
+    .sparkline13-graph,
+    .sparkline14-graph,
+    .sparkline15-graph,
+    .sparkline16-graph {
+        text-align: center;
+    }
+
+    .form-group-inner .row .col-md-4 {
+        padding-left: 0% !important;
+    }
+
+    #CustomerInfoDtails .form-group-inner .row .col-md-4 {
+        /*padding-left: 8% !important;*/
+    }
+
+    #CustomerInfoDtails #requiedAttricSymbol {
+        text-align: center !important;
+    }
+
+    #registerPanelCount #genderRegisterDetails #gender-Other {
+        margin-left: 30%;
+    }
+
+    #registerPanelCount #genderRegisterDetails #gender-male {
+        margin-left: 30%;
+    }
+
+    #registerPanelCount #genderRegisterDetails #gender-female {
+        margin-left: 30%;
+    }
+
+    #divPayoutDate {
+        text-align: center;
+    }
+
+    #DPayoutCycle {
+        text-align: center;
+    }
+
+    #RegisterSuccess {
+        margin-top: 25px;
+        margin-bottom: 50px;
+    }
+
+    #dvCheckPanal {
+        text-align: center;
+    }
+
+    #registerPanelCount .form-group-inner .row #divCountryCode {
+        padding-left: 19px !important;
+        width: 100%;
+    }
+
+    .header-right-info ul.header-right-menu li {
+        margin-left: -7px;
+    }
+}

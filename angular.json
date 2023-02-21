@@ -23,9 +23,26 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/Themes/Vnext/Content/VnextCSS/css/bootstrap.min.css",
+              "src/Themes/Vnext/Content/VnextCSS/css/font-awesome.min.css",
+              "src/Themes/Vnext/Content/VnextCSS/css/adminpro-custon-icon.css",
+              "src/Themes/Vnext/Content/VnextCSS/css/meanmenu.min.css",
+              "src/Themes/Vnext/Content/VnextCSS/css/jquery.mCustomScrollbar.min.css",
+              "src/Themes/Vnext/Content/VnextCSS/css/animate.css",
+              "src/Themes/Vnext/Content/VnextJs/js/DataTable/jquery.dataTables.css",
+              "src/Themes/Vnext/Content/VnextJs/js/DataTable/dataTables.tableTools.css",
+              "src/Themes/Vnext/Content/VnextCSS/css/normalize.css",
+              "src/Themes/Vnext/Content/VnextCSS/css/c3.min.css",
+              "src/Themes/Vnext/Content/VnextCSS/css/form/all-type-forms.css",
+              "src/Themes/Vnext/Content/VnextCSS/css/style.css",
+              "src/Themes/Vnext/Content/VnextCSS/css/responsive.css",
+              "src/Themes/Vnext/Content/VnextCSS/css/VnextCustom.css",
+              "src/Themes/Vnext/Content/VnextCSS/css/datapicker/datepicker3.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/Themes/Vnext/Content/VnextJs/js/vendor/modernizr-2.8.3.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -60,7 +77,6 @@
           },
           "defaultConfiguration": "production"
         },
-
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
@@ -79,7 +95,6 @@
             "browserTarget": "magnusApp:build"
           }
         },
-
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
@@ -99,7 +114,6 @@
             ]
           }
         },
-
         "deploy": {
           "builder": "@angular/fire:deploy",
           "options": {
